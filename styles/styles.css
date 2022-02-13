@@ -14,7 +14,5 @@ body {
     width: 1119px;
     height: 438px;
     display: block;
-    margin-left: auto;
-    margin-top: 5%;
-    margin-right: auto
+    margin: 5% auto auto;
 }
