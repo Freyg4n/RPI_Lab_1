@@ -12,6 +12,7 @@ body {
     margin-left: auto;
     margin-right: auto
 }
+/* --------------------------------------------- */
 .block1 {
     position: relative;
     margin-top: 85px ;
@@ -93,3 +94,97 @@ body {
     top: 355px;
     left: 245px;
 }
+.dot1-1, .dot1-2, .dot1-4, .dot1-5 {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 405px;
+    position: absolute;
+}
+.dot1-1{
+    left: 1180px;
+}
+.dot1-2{
+    left: 1195px;
+}
+.dot1-3 {
+    width: 8px;
+    height: 8px;
+    background-color: #555555;
+    border-radius: 50%;
+    position: absolute;
+    top: 405px;
+    left: 1210px;
+}
+.dot1-4{
+    left: 1225px;
+}
+.dot1-5{
+    left: 1240px;
+}
+/* --------------------------------------------- */
+.block2 {
+    width: 1120px;
+    height: 373px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    display: block;
+    margin: 90px auto auto;
+    position: relative;
+}
+.Photo2-1 {
+    width: 313px;
+    height: 208px;
+    top: 40px;
+    left: 55px;
+    position: absolute;
+}
+.Photo2-2{
+    width: 313px;
+    height: 208px;
+    top: 40px;
+    left: 410px;
+    position: absolute;
+}
+.Photo2-3{
+    width: 313px;
+    height: 208px;
+    top: 40px;
+    left: 765px;
+    position: absolute;
+}
+.text2-1, .text2-2, .text2-3 {
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    line-height: normal;
+}
+.text2-1{
+    width: 320px;
+    height: 18px;
+    top: 260px;
+    left: 55px;
+    position: absolute;
+}
+.text2-2{
+    width: 250px;
+    height: 18px;
+    top: 260px;
+    left: 410px;
+    position: absolute;
+}
+.text2-3{
+    width: 320px;
+    height: 36px;
+    top: 260px;
+    left: 765px;
+    position: absolute;
+}
+/* --------------------------------------------- */
