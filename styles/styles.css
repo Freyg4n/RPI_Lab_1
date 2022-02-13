@@ -66,30 +66,9 @@ body {
     top: 240px;
     left: 245px;
 }
-.text3 {
-    width: 90px;
-    height: 10px;
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 12px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: 0.3px;
-    line-height: normal;
-    position: absolute;
-    top: 365px;
-    left: 255px;
-}
 .border1 {
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
-    position: absolute;
-    top: 355px;
-    left: 245px;
+
 }
