@@ -188,7 +188,16 @@ body {
     position: absolute;
 }
 /* ====================IVAN PART============== */
+.block6{
+    width: 289px;
+    height: 349px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left: 200px;
+    top: 2365px;
 
+}
 /* ======================ARTYOM===============*/
 
 /* ===================PASHASASHSHASHA============= */
