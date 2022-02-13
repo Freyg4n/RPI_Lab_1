@@ -1,0 +1,12 @@
+body {
+    background-color: #eaeaea;
+}
+.base {
+    width: 1120px;
+    height: 123px;
+    box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
+    background-color: #f8f8f8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
