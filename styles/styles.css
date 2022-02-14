@@ -865,6 +865,7 @@ button:hover {
 
 
 /* ===================PASHASASHSHASHA============= */
+/*------------------------block 15-----------------------*/
 .block15 {
     width: 838px;
     height: 187px;
@@ -874,7 +875,7 @@ button:hover {
     top: 4175px;
     position: absolute;
 }
-.text15-1{
+.text15-1, .text16-1{       /*block16 - text1 */
     color: #000000;
     font-family: "Josefin Sans";
     transform: skew(-7deg);
@@ -927,7 +928,6 @@ button:hover {
     top:90px;
     left:680px;
     position: absolute;
-    /*border: 0.75px solid #c2c2c2;*/
 }
 .text15-3, .text15-4, .text15-5{
     font-family: 'Josefin Sans', sans-serif;
@@ -950,4 +950,248 @@ button:hover {
 .text15-5{
     left:740px;
     top:35px;
+}
+/*-----------------------block 16-------------------------*/
+.block16{
+    width: 838px;
+    height: 761px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    top:4410px;
+    left:280px;
+}
+.block16-1, .block16-2, .block16-3, .block16-4{
+    position: absolute;
+    top:60px;
+    left:40px;
+    width: 745px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+}
+.text16-1{
+    top: 20px;
+}
+.Photo16-1{
+    position: absolute;
+    top:90px;
+    left:50px;
+}
+.Photo16-2{
+    position: absolute;
+    top:445px;
+    left:120px;
+}
+.Photo16-3{
+    position: absolute;
+    top:610px;
+    left:50px;
+}
+.Photo16-4{
+    position: absolute;
+    top:160px;
+    left:125px;
+}
+.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .date16-1{
+    font-family: 'Josefin Sans';
+    line-height: 1.2;
+    position: absolute;
+    letter-spacing: normal;
+}
+.text16-2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:85px;
+    left:130px;
+}
+.text16-3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    top: 105px;
+    left:130px;
+}
+.text16-4{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #629494;
+    position: absolute;
+    top:105px;
+    left:300px;
+}
+.text16-5, .text16-6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:385px;
+    left:125px;
+}
+.text16-6{
+    left:130px;
+    top: 675px;
+}
+.date16-1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #629494;
+    top:130px;
+    left:130px;
+}
+.block16-2{
+    width: 655px;
+    top:425px;
+    left:125px;
+}
+.block16-3{
+    top:590px;
+}
+.block16-4{
+    top:705px;
+}
+/*-----------------------block 17--------------------------*/
+.block17{
+    width: 838px;
+    height: 92px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    top: 5215px;
+    left: 280px;
+}
+.text17-arrowleft, .text17-arrowright, .text17-1, .text17-2, .text17-3, .text17-4, .text17-5, .text17-6{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: normal;
+    top: 40%;
+    color: #000000;
+    position: absolute;
+}
+.text17-arrowleft{
+    left: 270px;
+}
+.text17-1{
+    left: 310px;
+}
+.text17-2{
+    left: 350px;
+    color: #629494;
+}
+.text17-3{
+    left: 390px;
+}
+.text17-4{
+    left: 430px;
+}
+.text17-5{
+    left: 470px;
+}
+.text17-6{
+    left: 510px;
+}
+.text17-arrowright{
+    left: 550px;
+}
+/*------------------------block 18-----------------------*/
+.block18{
+    width: 1120px;
+    height: 180px;
+    opacity: 0.8;
+    background-color: #000000;
+    box-shadow: 0px 3px 7px 0px rgba(11,12,12,0.14);
+    position: absolute;
+    top: 5460px;
+    left:150px;
+}
+.Logo_black{
+    position: absolute;
+    top: 40%;
+    left: 85px;
+}
+.text18-1, .text18-2, .text18-3, .text18-4, .text18-5, .text18-6{
+    opacity: 0.5;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #fefefe;
+    top:85px;
+    position: absolute;
+}
+.text18-1{
+    left:285px;
+}
+.text18-1:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-2{
+    left:345px;
+}
+.text18-2:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-3{
+    left:415px;
+}
+.text18-3:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-4{
+    left:545px;
+}
+.text18-4:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-5{
+    left:610px;
+}
+.text18-5:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-6{
+    left:835px;
+}
+.google18, .twitter18, .facebook18, .pinterest18 {
+    top:110px;
+    position: absolute;
+    color: #fefefe;
+    opacity: 0.3;
+}
+.google18{
+    left:970px;
+}
+.google18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.twitter18{
+    left:1005px;
+}
+.twitter18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.facebook18{
+    left:1035px;
+}
+.facebook18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.pinterest18{
+    left:1055px;
+}
+.pinterest18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
 }
