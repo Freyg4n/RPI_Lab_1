@@ -215,7 +215,7 @@ body {
     font-family: "Josefin Sans";
     font-size: 24px;
     font-weight: 400;
-    font-style: italic;
+    /*font-style: italic;*/
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
@@ -224,6 +224,7 @@ body {
     position: absolute;
 }
 .text15-2{
+    text-decoration: none;
     font-family: 'Josefin Sans';
     font-size: 16px;
     line-height: 1.2;
@@ -259,7 +260,7 @@ body {
 }
 .text15-3, .text15-4, .text15-5{
     font-family: 'Josefin Sans';
-    font-style: italic;
+    /*font-style: italic;*/
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
