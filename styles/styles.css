@@ -199,6 +199,550 @@ body {
 
 }
 /* ======================ARTYOM===============*/
+.block11 {
+    width: 290px;
+    height: 160px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 2840px;
+    left: 585px;
+}
+.text {
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    line-height: normal;
+    position: absolute;
+    transform: skew(-7deg)
+}
+.first {
+    width: 36px;
+    height: 19px;
+    top: 26px;
+    left: 17px;   
+}
+.second {
+    width: 76px;
+    height: 17px;
+    top: 26px;
+    left: 17px;
+}
+.third {
+    width: 45px;
+    height: 19px;
+    top: 19px;
+    left: 31px;
+}
+.fourth {
+    width: 70px;
+    height: 20px;
+    top: 18px;
+    left: 30px;
+}
+.line {
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+}
+.one {
+    width: 252px;
+    top: 50px;
+    left: 17px;
+}
+.two {
+    width: 252px;
+    top: 54px;
+    left: 17px;
+}
+.three {
+    width: 271px;
+    top: 46px;
+    left: 25px;
+}
+.last {
+    top: 46px;
+    left: 25px;
+}
+.text11-1 {
+    width: 237px;
+    height: 68px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    /*letter-spacing: normal;*/
+    line-height: 3;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+    left: 23px;
+}
+.block12 {
+    width: 290px;
+    height: 367px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 3050px;
+    left: 585px;
+}
+.text12-1 {
+    width: 5px;
+    height: 9px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;
+    position: absolute;
+    top: 81px;
+    left: 31px;
+}
+.text12-2 {
+    width: 5px;
+    height: 9px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: -14px;
+    font-weight: 400;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;
+    position: absolute;
+    top: 81px;
+    left: 252px;
+}
+.text12-3 {
+    width: 80px;
+    height: 16px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: normal;
+    position: absolute;
+    top: 78px;
+    left: 103px;
+}
+.text12-4 {
+    width: 222px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.35px;
+    position: absolute;
+    top: 125px;
+    left: 33px;
+    transform: skew(-7deg);
+    word-spacing: 10px;
+}
+.text12-5 {
+    width: 180px;
+    height: 170px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+    color: #555555;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;
+    transform: skew(-7deg);
+    word-spacing: 10px;
+    position: absolute;
+    top: 161px;
+    left: 33px;
+}
+.calendar {
+    position: absolute;
+    top: 161px;
+    left: 33px;
+}
+.block13 {
+    width: 328px;
+    height: 406px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 3515px;
+    left: 340px;
+}
+.text13-1 {
+    width: 145px;
+    height: 16px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    left: 30px;
+}
+.login {
+    width: 265px;
+    height: 40px;
+    box-shadow: inset 1px 2px 7px rgba(11, 12, 12, 0.37);
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    top: 116px;
+    left: 32px;
+}
+input::placeholder {
+    width: 150px;
+    height: 16px;
+    opacity: 0.2;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    transform: skew(-7deg);
+    position: absolute;
+}
+.login::placeholder {
+    top: 14px;
+    left: 18px;
+}
+.password::placeholder {
+    top: 12px;
+    left: 20px;
+}
+.password {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    top: 176px;
+    left: 32px;
+}
+.chbox {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 231px;
+    left: 32px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    border-radius: 20%;
+}
+.text13-2 {
+    width: 80px;
+    height: 10px;
+    opacity: 0.54;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.3px;
+    transform: skew(-7deg);
+    position: absolute;
+    top: 232px;
+    left: 48px;
+}
+.btlogin {
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    top: 277px;
+    left: 112px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.btsignup {
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    top: 351px;
+    left: 112px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+button:hover {
+    background-color: #e9dfdf;
+}
+.text13-4 {
+    width: 150px;
+    height: 10px;
+    opacity: 0.54;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.3px;
+    transform: skew(-7deg);
+    position: absolute;
+    top: 232px;
+    left: 178px;
+
+}
+.facebook {
+    position: absolute;
+    top: 327px;
+    left: 135px; 
+    width: 12px;
+    height: 22px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.3px;   
+}
+.facebook2 {
+    position: absolute;
+    top: 399px;
+    left: 137px; 
+    width: 12px;
+    height: 22px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.3px;   
+}
+.g {
+    position: absolute;
+    top: 330px;
+    left: 169px;    
+    width: 29px;
+    height: 19px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    letter-spacing: 0.55px;
+} 
+.g2 {
+    position: absolute;
+    top: 402px;
+    left: 171px;    
+    width: 29px;
+    height: 19px;
+    color: #555555;
+    font-family: "Font Awesome";
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    letter-spacing: 0.55px;
+} 
+.text13-5 {
+    width: 250px;
+    height: 16px;
+    opacity: 0.54;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.4px;
+    position: absolute;
+    top: 367px;
+    left: 64px;  
+}
+.block14 {
+    width: 328px;
+    height: 535px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 3515px;
+    left: 755px;
+}
+.text14-1 {
+    width: 145px;
+    height: 16px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    position: absolute;
+    top: 77px;
+    left: 30px;
+}
+.usname {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    top: 171px;
+    left: 32px;
+}
+.usname::placeholder {
+    top: 14px;
+    left: 20px;
+}
+.password2 {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    top: 228px;
+    left: 32px;
+}
+.password2::placeholder {
+    top: 14px;
+    left: 20px;
+}
+.rppassword {
+    width: 265px;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    background-color: #ffffff;
+    position: absolute;
+    top: 283px;
+    left: 32px;
+}
+.rppassword::placeholder {
+    top: 14px;
+    left: 20px;
+}
+.text14-5 {
+    width: 240px;
+    height: 31px;
+    opacity: 0.54;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    position: absolute;
+    top: 448px;
+    left: 35px;
+}
+.text14-6 {
+    width: 216px;
+    height: 31px;
+    color: #002dd6;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: normal;
+    text-decoration: underline;
+    position: absolute;
+    top: 463px;
+    left: 35px;
+}
+.text14-7 {
+    width: 36px;
+    height: 10px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    position: absolute;
+    top: 494px;
+    left: 39px;
+}
+
 
 /* ===================PASHASASHSHASHA============= */
 .block15 {
