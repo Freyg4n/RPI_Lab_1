@@ -249,8 +249,11 @@ body {
     left:60px;
     position: absolute;
 }
-.Photo15-3{
-    height:39px;
+.Input15-1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    height:36px;
+    width:490px;
     top:90px;
     left:180px;
     border: 1px solid #c2c2c2;
@@ -260,7 +263,7 @@ body {
     top:90px;
     left:680px;
     position: absolute;
-    border: 1px solid #c2c2c2;
+    /*border: 0.75px solid #c2c2c2;*/
 }
 .text15-3, .text15-4, .text15-5{
     font-family: 'Josefin Sans', sans-serif;
