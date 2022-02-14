@@ -302,7 +302,7 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 195px;
+    left: 200px;
     top: 120px;
 }
 
@@ -314,7 +314,15 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 210px;
+    left: 215px;
+    top: 120px;
+}
+.line6-2{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    left: 160px;
     top: 120px;
 }
 
