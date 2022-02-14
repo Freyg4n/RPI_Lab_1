@@ -201,7 +201,7 @@ body {
 /* ======================ARTYOM===============*/
 
 /* ===================PASHASASHSHASHA============= */
-/*--------------------------------------------------*/
+/*------------------------block 15-----------------------*/
 .block15 {
     width: 838px;
     height: 187px;
@@ -211,7 +211,7 @@ body {
     top: 4175px;
     position: absolute;
 }
-.text15-1{
+.text15-1, .text16-1{       /*block16 - text1 */
     color: #000000;
     font-family: "Josefin Sans";
     transform: skew(-7deg);
@@ -287,9 +287,107 @@ body {
     left:740px;
     top:35px;
 }
-/*--------------------------------------------------*/
-
-/*--------------------------------------------------*/
+/*-----------------------block 16-------------------------*/
+.block16{
+    width: 838px;
+    height: 761px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    top:4410px;
+    left:280px;
+}
+.block16-1, .block16-2, .block16-3, .block16-4{
+    position: absolute;
+    top:60px;
+    left:40px;
+    width: 745px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+}
+.text16-1{
+    top: 20px;
+}
+.Photo16-1{
+    position: absolute;
+    top:90px;
+    left:50px;
+}
+.Photo16-2{
+    position: absolute;
+    top:445px;
+    left:120px;
+}
+.Photo16-3{
+    position: absolute;
+    top:610px;
+    left:50px;
+}
+.Photo16-4{
+    position: absolute;
+    top:160px;
+    left:125px;
+}
+.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .date16-1{
+    font-family: 'Josefin Sans';
+    line-height: 1.2;
+    position: absolute;
+    letter-spacing: normal;
+}
+.text16-2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:85px;
+    left:130px;
+}
+.text16-3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    top: 105px;
+    left:130px;
+}
+.text16-4{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #629494;
+    position: absolute;
+    top:105px;
+    left:300px;
+}
+.text16-5, .text16-6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:385px;
+    left:125px;
+}
+.text16-6{
+    left:130px;
+    top: 675px;
+}
+.date16-1{
+    font-size: 12px;
+    font-weight: 700;
+    color: #629494;
+    top:130px;
+    left:130px;
+}
+.block16-2{
+    width: 655px;
+    top:425px;
+    left:125px;
+}
+.block16-3{
+    top:590px;
+}
+.block16-4{
+    top:705px;
+}
+/*-----------------------block 17--------------------------*/
 .block17{
     width: 838px;
     height: 92px;
@@ -334,7 +432,7 @@ body {
 .text17-arrowright{
     left: 550px;
 }
-/*--------------------------------------------------*/
+/*------------------------block 18-----------------------*/
 .block18{
     width: 1120px;
     height: 180px;
