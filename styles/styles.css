@@ -213,9 +213,9 @@ body {
 .text15-1{
     color: #000000;
     font-family: "Josefin Sans";
+    transform: skew(-7deg);
     font-size: 24px;
     font-weight: 400;
-    /*font-style: italic;*/
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
@@ -231,9 +231,12 @@ body {
     font-weight: 300;
     letter-spacing: normal;
     color: #ffffff;
-    top:100px;
+    top:55%;
     left:705px;
     position: absolute;
+}
+.text15-2:hover{
+    color: rgb(187, 187, 187);
 }
 .Photo15-2{
     top:65px;
@@ -257,10 +260,11 @@ body {
     top:90px;
     left:680px;
     position: absolute;
+    border: 1px solid #c2c2c2;
 }
 .text15-3, .text15-4, .text15-5{
-    font-family: 'Josefin Sans';
-    /*font-style: italic;*/
+    font-family: 'Josefin Sans', sans-serif;
+    transform: skew(-7deg);
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
