@@ -259,7 +259,6 @@ body {
     left: 100px;
     top: 120px;
 }
-
 .text6-5{
     font-family: 'Open Sans';
     font-size: 12px;
@@ -293,7 +292,6 @@ body {
     left: 180px;
     top: 120px;
 }
-
 .text6-8{
     font-family: 'Font Awesome';
     font-size: 12px;
@@ -302,10 +300,9 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 195px;
+    left: 200px;
     top: 120px;
 }
-
 .text6-9{
     font-family: 'Open Sans';
     font-size: 12px;
@@ -314,10 +311,171 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 210px;
+    left: 215px;
     top: 120px;
 }
+.line6-2{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    opacity: 0.5;
+}
+.photo6-2{
+    width: 289px;
+    height: 204px;
+    background-color: #ffffff;
 
+    position: absolute;
+    top: 145px;
+}
+.dot6-1, .dot6-2, .dot6-4, .dot6-5 {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 330px;
+    position: absolute;
+}
+.dot6-3{
+    width: 8px;
+    height: 8px;
+    background-color: #555555;
+    border-radius: 50%;
+    top: 330px;
+    left: 145px;
+    position: absolute;
+}
+.dot6-1{
+    left:115px;
+}
+.dot6-2{
+    left:130px;
+}
+.dot6-4{
+    left:160px;
+}
+.dot6-5{
+    left:175px;
+}
+.dot6-1:hover,.dot6-2:hover,.dot6-3:hover,.dot6-4:hover,.dot6-5:hover{
+    cursor: pointer;
+}
+/*--------------------------*/
+.block7{
+    width: 290px;
+    height: 427px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left: 585px;
+    top: 2365px;
+}
+.text7-1{
+    font-family: 'Josefin Sans';
+    transform: skew(-7deg);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+
+}
+.line7-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    position: absolute;
+    left: 15px;
+    top:   55px;
+}
+.text7-2{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.text7-3{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 115px
+}
+.text7-4{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 190px
+}
+.photo7-1{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:110px;
+}
+.photo7-2{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:210px;
+}
+.photo7-3{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:300px;
+}
+.viewbutton{
+    font-family: 'Josefin Sans';
+    font-size:12px;
+    line-height: 1.2;
+    top:380px;
+    left:165px;
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    font-weight: 300;
+    color: #010101;
+    background-color: #ffffff;
+}
+.viewbutton:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
 /* ======================ARTYOM===============*/
 .block11 {
     width: 290px;
