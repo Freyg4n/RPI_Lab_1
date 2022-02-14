@@ -750,13 +750,13 @@ input::placeholder {
     border-radius: 20%;
 }
 .text13-2 {
-    width: 80px;
+    width: 90px;
     height: 10px;
-    opacity: 0.54;
+    opacity: 0.5;
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -811,11 +811,11 @@ button:hover {
 .text13-4 {
     width: 150px;
     height: 10px;
-    opacity: 0.54;
+    opacity: 0.5;
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
