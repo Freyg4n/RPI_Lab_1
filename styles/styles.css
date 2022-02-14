@@ -386,6 +386,11 @@ body {
     top: 161px;
     left: 33px;
 }
+.calendar {
+    position: absolute;
+    top: 161px;
+    left: 33px;
+}
 .block13 {
     width: 328px;
     height: 406px;
