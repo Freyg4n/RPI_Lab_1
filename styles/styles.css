@@ -924,11 +924,25 @@ button:hover {
     border: 1px solid #c2c2c2;
     position:absolute;
 }
-.Photo15-4{
+.btn15-4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
     top:90px;
     left:680px;
     position: absolute;
+    width:87px;
+    font-weight: 300;
+    height:40px;
+    text-decoration-color: #c2c2c2;
+    color: #ffffff;
+    background-color: #383737;
 }
+.btn15-4:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+
 .text15-3, .text15-4, .text15-5{
     font-family: 'Josefin Sans', sans-serif;
     transform: skew(-7deg);
