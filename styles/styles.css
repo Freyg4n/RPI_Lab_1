@@ -196,8 +196,128 @@ body {
     position: absolute;
     left: 200px;
     top: 2365px;
+}
+.text6-1{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+}
+.photo6-1{
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.line6-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+}
+.text6-2{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 80px;
 
 }
+.text6-3{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.text6-4{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+
+.text6-5{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 115px;
+    top: 120px;
+}
+.text6-6{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 170px;
+    top: 120px;
+}
+.text6-7{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 180px;
+    top: 120px;
+}
+
+.text6-8{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+}
+
+.text6-9{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 210px;
+    top: 120px;
+}
+
 /* ======================ARTYOM===============*/
 .block11 {
     width: 290px;
