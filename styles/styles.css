@@ -1,6 +1,6 @@
 body {
     width: 1440px;
-    height: 9131px;
+    height: 5750px;
     background-color: #eaeaea;
 }
 .base {
@@ -1038,7 +1038,7 @@ button:hover {
     font-family: "Josefin Sans";
     transform: skew(-7deg);
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
@@ -1105,7 +1105,7 @@ button:hover {
     transform: skew(-7deg);
     font-size: 16px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     color: #000000;
     position: absolute;
@@ -1164,13 +1164,14 @@ button:hover {
     top:160px;
     left:125px;
 }
-.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .date16-1{
+.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .text16-7, .text16-8, .date16-1 , .text16-9, .text16-10,
+.reply16-2, .reply16-3, .date16-2, .date16-3, .text16-11, .text16-12{
     font-family: 'Josefin Sans';
     line-height: 1.2;
     position: absolute;
     letter-spacing: normal;
 }
-.text16-2{
+.text16-2, .text16-9, .text16-10, .text16-11{
     font-size: 16px;
     font-weight: 300;
     color: #000000;
@@ -1179,19 +1180,19 @@ button:hover {
 }
 .text16-3{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: #000000;
     top: 105px;
     left:130px;
 }
-.text16-4{
+.text16-4, .reply16-2, .reply16-3{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: underline;
     color: #629494;
     position: absolute;
     top:105px;
-    left:300px;
+    left:295px;
 }
 .text16-5, .text16-6{
     font-size: 16px;
@@ -1204,12 +1205,19 @@ button:hover {
     left:130px;
     top: 675px;
 }
-.date16-1{
+.date16-1, .date16-2, .date16-3{
     font-size: 12px;
     font-weight: 700;
     color: #629494;
     top:130px;
     left:130px;
+}
+.date16-2{
+    left:200px;
+    top:490px;
+}
+.date16-3{
+    top:650px;
 }
 .block16-2{
     width: 655px;
@@ -1221,6 +1229,108 @@ button:hover {
 }
 .block16-4{
     top:705px;
+}
+.text16-7{
+    top:465px;
+    left:200px;
+    font-weight: 700;
+}
+.text16-8{
+    top:625px;
+    left:130px;
+    font-weight: 700;
+}
+.text16-9{
+    left:200px;
+    top:445px;
+}
+.text16-10{
+    top:605px;
+}
+.reply16-2{
+    top:465px;
+    left:365px;
+}
+.reply16-3{
+    top:625px;
+}
+.text16-11{
+    top:515px;
+    left:200px;
+    font-weight: 600;
+}
+.text16-12{
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    left:400px;
+    top:555px;
+}
+.t456-1, .t456-2, .t456-3{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: normal;
+    left:700px;
+    position: absolute;
+}
+.t456-1, .t15-1{
+    top:110px;
+}
+.t456-2, .t15-2{
+    top:470px;
+}
+.t456-3, .t15-3{
+    top:635px;
+}
+.t15-1, .t15-2, .t15-3{
+    position: absolute;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #555555;
+    left:750px;
+}
+.share16-1, .share16-2, .share16-3{
+    position: absolute;
+    left: 725px;
+}
+.share16-1, .like16-1{ top: 110px; }
+.share16-2, .like16-2{ top: 470px; }
+.share16-3, .like16-3{ top: 635px; }
+
+.like16-1, .like16-2, .like16-3{
+    position: absolute;
+    width:15px;
+    height:15px;
+    left: 765px;
+}
+.ellipse16{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left:375px;
+    top:165px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.pinterest16{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #555555;
+    position: absolute;
+    top:10px;
+    left:20%;
+}
+.pinterest16:hover{
+    opacity:1;
+    color: rgb(0, 0, 0);
 }
 /*-----------------------block 17--------------------------*/
 .block17{
