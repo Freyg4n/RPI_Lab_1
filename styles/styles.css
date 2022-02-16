@@ -476,6 +476,39 @@ body {
     color:#000000;
     cursor: pointer;
 }
+.text7-5{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top:110px;
+    left: 85px;
+}
+.text7-6{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left:100px;
+    top:110px;
+}
+.text7-7{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 85px;
+    top:130px;
+}
 /* ======================ARTYOM===============*/
 .block11 {
     width: 290px;
