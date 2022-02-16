@@ -584,7 +584,7 @@ body {
     color: #555555;
     position: absolute;
     top: 35px;
-    left: 175px;
+    right: 110px;
 }
 .icons7-2{
     font-family: 'Font Awesome';
@@ -595,7 +595,30 @@ body {
     color: #555555;
     position: absolute;
     top: 35px;
-    left: 195px;
+    right: 80px;
+}
+.icons7-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+
+.icons7-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 25px;
 }
 /* ======================ARTYOM===============*/
 .block11 {
