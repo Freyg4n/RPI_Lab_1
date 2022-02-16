@@ -375,7 +375,7 @@ body {
 }
 .text7-1{
     font-family: 'Josefin Sans';
-    transform: skew(-7deg);
+    font-style: italic;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 400;
@@ -608,7 +608,6 @@ body {
     top: 35px;
     right: 55px;
 }
-
 .icons7-4{
     font-family: 'Font Awesome';
     font-size: 16px;
@@ -620,6 +619,131 @@ body {
     top: 35px;
     right: 25px;
 }
+/*----------------------------------------------------------*/
+.block8{
+    width: 290px;
+    height: 349px;
+    position: absolute;
+    left: 935px;
+    top: 2365px;
+}
+.photo8-1{
+    width: 290px;
+    height: 349px;
+    background-color: #988f8f;
+}
+.text8-1{
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #921026;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.text8-2{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 20px;
+    top: 95px;
+
+}
+.text8-3{
+    font-family: 'Josefin Sans';
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #222222;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+
+}
+.text8-4{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:130px;
+    top:205px;
+}
+.text8-5{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:145px;
+    top:205px;
+}
+.text8-6{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:190px;
+    top:205px;
+}
+.text8-7{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:205px;
+    top:205px;
+}
+.text8-8{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:230px;
+    top:205px;
+}
+.text8-9{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:245px;
+    top:205px;
+}
+
+.line8-1{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    left:185px;
+    top:205px;
+}
+
 /* ======================ARTYOM===============*/
 .block11 {
     width: 290px;
