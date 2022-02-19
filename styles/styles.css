@@ -10,47 +10,52 @@ body {
     background-color: #f8f8f8;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    top: 10px;
+    left: 150px;
+    position: absolute;
+
 }
 /* --------------------------------------------- */
 .block1 {
-    position: relative;
-    margin-top: 85px ;
-    text-align: center;
-}
-.Photo1{
-    width: 1119px;
+    width: 1120px;
     height: 438px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+}
+.Photo1-1{
+    width: 1130px;
+    height: 450px;
     position: relative;
-
+    top: -5px;
 }
 .Logo1 {
     width: 252px;
     height: 105px;
     position: absolute;
     top: 50px;
-    left: 245px;
+    left: 90px;
 }
-.text1 {
-    position: absolute;
-    width: 355px;
+.text1-1 {
+    width: 400px;
     height: 20px;
     color: #921026;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-size: 24px;
     font-weight: 400;
-    font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.6px;
-    line-height: normal;
+    position: absolute;
     top: 190px;
-    left: 245px;
+    left: 90px;
 }
-.text2 {
-    width: 312px;
+.text1-2 {
+    width: 330px;
     height: 90px;
     color: #000000;
     font-family: "Josefin Sans";
@@ -65,34 +70,30 @@ body {
     line-height: normal;
     position: absolute;
     top: 240px;
-    left: 245px;
+    left: 90px;
 }
-.text3 {
-    width: 90px;
-    height: 10px;
+.btn1-1 {
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
     color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: 0.3px;
-    line-height: normal;
+    background-color: white;
     position: absolute;
-    top: 365px;
-    left: 255px;
+    top: 350px;
+    left: 90px;
 }
-.border1 {
-    width: 105px;
-    height: 28px;
-    border: 1px solid #c2c2c2;
-    position: absolute;
-    top: 355px;
-    left: 245px;
+.btn1-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
 }
 .dot1-1, .dot1-2, .dot1-4, .dot1-5 {
     width: 8px;
@@ -103,10 +104,10 @@ body {
     position: absolute;
 }
 .dot1-1{
-    left: 1180px;
+    left: 1025px;
 }
 .dot1-2{
-    left: 1195px;
+    left: 1040px;
 }
 .dot1-3 {
     width: 8px;
@@ -115,13 +116,16 @@ body {
     border-radius: 50%;
     position: absolute;
     top: 405px;
-    left: 1210px;
+    left: 1055px;
 }
 .dot1-4{
-    left: 1225px;
+    left: 1070px;
 }
 .dot1-5{
-    left: 1240px;
+    left: 1085px;
+}
+.dot1-1:hover, .dot1-2:hover, .dot1-3:hover, .dot1-4:hover, .dot1-5:hover{
+    cursor: pointer;
 }
 /* --------------------------------------------- */
 .block2 {
@@ -130,8 +134,9 @@ body {
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     display: block;
-    margin: 90px auto auto;
-    position: relative;
+    top: 730px;
+    left: 150px;
+    position: absolute;
 }
 .Photo2-1 {
     width: 313px;
@@ -185,6 +190,215 @@ body {
     height: 36px;
     top: 260px;
     left: 765px;
+    position: absolute;
+}
+.text2-4, .text2-6, .text2-8{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 290px;
+}
+.text2-4{
+    left: 55px;
+}
+.text2-6{
+    left: 120px;
+}
+.text2-8{
+    left: 155px;
+}
+.text2-5, .text2-7, .text2-9{
+    width: 41px;
+    height: 10px;
+    color: #555555;
+    font-family: "Open Sans", serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    top: 77.5%;
+    position: absolute;
+}
+.text2-5{
+    left: 70px;
+}
+.text2-7{
+    left: 135px;
+}
+.text2-9{
+    left: 170px;
+}
+.line2-1{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 290px;
+    left: 115px;
+}
+/* --------------------------------------------- */
+.block3{
+    width: 1120px;
+    height: 438px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    top: 1200px;
+    left: 150px;
+    position: absolute;
+}
+.Photo3-1{
+    width: 520px;
+    height: 440px;
+    position: absolute;
+    left: -15px;
+}
+.border3-1{
+    width: 49px;
+    height: 62px;
+    background-color: #000000;
+    opacity: 50%;
+    position: relative;
+    left: 435px;
+}
+.text3-1{
+    width: 23px;
+    height: 26px;
+    color: #ffffff;
+    font-family: "Font Awesome", serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+}
+.text3-2{
+    width: 492px;
+    height: 27px;
+    color: #055555;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 555px;
+}
+.text3-3, .text3-4{
+    height: 265px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 555px;
+}
+.text3-3{
+    width: 400px;
+    top: 135px;
+}
+.text3-4{
+    width: 500px;
+    top: 170px;
+}
+.scroll3-1, .scroll3-2{
+    height: 267px;
+    position: absolute;
+    top: 130px;
+    left: 1070px;
+}
+.scroll3-1{
+    opacity: 0.2;
+    width: 2px;
+    background-color: #555555;
+}
+.scroll3-2{
+    width: 2px;
+    height: 126px;
+    background-color: #555555;
+}
+.text3-5{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+    left: 555px;
+    top: 220px;
+}
+.text3-6, .text3-7, .text3-8, .text3-9{
+    font-family: Sylfaen;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+}
+.text3-6{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 255px;
+}
+.text3-7{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 335px;
+}
+.text3-8{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 355px;
+}
+.text3-9{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 375px;
+}
+/* --------------------------------------------- */
+.block4{
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    width: 518px;
+    height: 518px;
+    top: 1770px;
+    left: 150px;
+    position: absolute;
+}
+.Photo4-1{
+    width: 518px;
+    height: 518px;
+    position: relative;
+}
+
+/* --------------------------------------------- */
+.block5{
+    width: 518px;
+    height: 519px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    top: 1770px;
+    left: 755px;
     position: absolute;
 }
 /* ====================IVAN PART============== */
