@@ -18,21 +18,24 @@ body {
 }
 /* --------------------------------------------- */
 .block1 {
-    text-align: center;
+    width: 1120px;
+    height: 438px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
     top: 210px;
     left: 150px;
-    position: absolute;
 }
 .Photo1-1{
-    width: 1119px;
-    height: 438px;
-    position: absolute;
-
+    width: 1130px;
+    height: 450px;
+    position: relative;
+    top: -5px;
 }
 .Logo1 {
     width: 252px;
     height: 105px;
-    position: relative;
+    position: absolute;
     top: 50px;
     left: 90px;
 }
@@ -249,7 +252,129 @@ body {
     left: 150px;
     position: absolute;
 }
-
+.Photo3-1{
+    width: 520px;
+    height: 440px;
+    position: absolute;
+    left: -15px;
+}
+.border3-1{
+    width: 49px;
+    height: 62px;
+    background-color: #000000;
+    opacity: 50%;
+    position: relative;
+    left: 435px;
+}
+.text3-1{
+    width: 23px;
+    height: 26px;
+    color: #ffffff;
+    font-family: "Font Awesome", serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+}
+.text3-2{
+    width: 492px;
+    height: 27px;
+    color: #055555;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 555px;
+}
+.text3-3, .text3-4{
+    height: 265px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 555px;
+}
+.text3-3{
+    width: 400px;
+    top: 135px;
+}
+.text3-4{
+    width: 500px;
+    top: 170px;
+}
+.scroll3-1, .scroll3-2{
+    height: 267px;
+    position: absolute;
+    top: 130px;
+    left: 1070px;
+}
+.scroll3-1{
+    opacity: 0.2;
+    width: 2px;
+    background-color: #555555;
+}
+.scroll3-2{
+    width: 2px;
+    height: 126px;
+    background-color: #555555;
+}
+.text3-5{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+    left: 555px;
+    top: 220px;
+}
+.text3-6, .text3-7, .text3-8, .text3-9{
+    font-family: Sylfaen;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+}
+.text3-6{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 255px;
+}
+.text3-7{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 335px;
+}
+.text3-8{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 355px;
+}
+.text3-9{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 375px;
+}
 /* --------------------------------------------- */
 .block4{
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
