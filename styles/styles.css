@@ -1,9 +1,10 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 body {
     width: 1440px;
     height: 5750px;
     background-color: #eaeaea;
 }
-.base {
+.header {
     width: 1120px;
     height: 123px;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
@@ -14,11 +15,81 @@ body {
     top: 10px;
     left: 150px;
     position: absolute;
-
+}
+.LogoSmall{
+    width: 87px;
+    height: 36px;
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
+.text0-1, .text0-2, .text0-3, .text0-4, .text0-5{
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 57px;
+}
+.text0-1{
+    width: 10px;
+    left: 255px;
+}
+.text0-2{
+    width: 10px;
+    left: 335px;
+}
+.text0-3{
+    width: 150px;
+    left: 425px;
+}
+.text0-4{
+    width: 10px;
+    left: 605px;
+}
+.text0-5{
+    width: 140px;
+    left: 700px;
+}
+.find::-webkit-input-placeholder {
+    font-family: FontAwesome, serif;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    top: 30%;
+    opacity: 75%;
+    transform: skew(0deg);
+}
+.find{
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    width: 162px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    top: 50px;
+    left: 865px;
+    vertical-align: center;
 }
 /* --------------------------------------------- */
 .block1 {
-    width: 1120px;
+    width: 1119px;
     height: 438px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
@@ -27,9 +98,9 @@ body {
     left: 150px;
 }
 .Photo1-1{
-    width: 1130px;
-    height: 450px;
-    position: relative;
+    width: 1128px;
+    height: 449px;
+    position: absolute;
     top: -5px;
 }
 .Logo1 {
@@ -79,7 +150,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans", serif;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -459,7 +530,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans", serif;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -523,9 +594,9 @@ body {
     height: 28px;
     border: 1px solid #c2c2c2;
     color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -586,6 +657,141 @@ body {
     top: 1770px;
     left: 755px;
     position: absolute;
+}
+.bar5-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.bar5-2{
+    width: 291px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 175px;
+    left: 180px;
+}
+.text5-1{
+    width: 150px;
+    height: 24px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+}
+.text5-2{
+    width: 150px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+}
+.text5-3{
+    width: 150px;
+    height: 17px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 205px;
+    left: 180px;
+    transform: skew(-5deg);
+}
+.text5-4{
+    width: 288px;
+    height: 148px;
+    color: #000000;
+    font-family: "Josefin Sans - Light Italic", serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 255px;
+    left: 180px;
+    transform: skew(-2deg);
+}
+.text5-5{
+    width: 58px;
+    height: 17px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    transform: skew(-5deg);
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+.Photo5-1{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+.Photo5-2{
+    position: absolute;
+    top: 425px;
+    left: 315px;
+}
+.google5, .facebook5, .twitter5, .pinterest5{
+    width: 20px;
+    height: 15px;
+    opacity: 0.5;
+    color: #555555;
+    font-family: "Font Awesome", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 145px;
+}
+.google5{
+    left: 180px;
+}
+.facebook5{
+    left: 210px;
+}
+.twitter5{
+    left: 230px;
+}
+.pinterest5{
+    left: 255px;
 }
 /* ====================IVAN PART============== */
 .block6{
@@ -1454,7 +1660,7 @@ body {
     height: 9px;
     color: #555555;
     font-family: "Font Awesome";
-    font-size: -14px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     font-style: normal;
