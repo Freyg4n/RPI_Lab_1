@@ -337,7 +337,7 @@ body {
     cursor: pointer;
 }
 .text3-5{
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 0.4px;
@@ -347,7 +347,7 @@ body {
     top: 220px;
 }
 .text3-6, .text3-7, .text3-8, .text3-9{
-    font-family: Sylfaen;
+    font-family: Sylfaen, serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.4px;
@@ -493,7 +493,90 @@ body {
     height: 518px;
     position: relative;
 }
-
+.bar4-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.text4-1{
+    width: 35px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    transform: skew(-5deg);
+    position: absolute;
+    top: 25px;
+    left: 45px;
+}
+.btn4-1{
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    background: white;
+    top: 440px;
+    left: 205px;
+}
+.btn4-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+.text4-2{
+    width: 79px;
+    height: 33px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 210px;
+    left: 225px;
+}
+.text4-3{
+    width: 130px;
+    height: 32px;
+    color: #a9a9a9;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 255px;
+    left: 200px;
+}
+.Photo4-2{
+    position: absolute;
+    top: 305px;
+    left: 250px;
+}
 /* --------------------------------------------- */
 .block5{
     width: 518px;
