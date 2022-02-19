@@ -116,7 +116,7 @@ body {
     color: #921026;
     font-family: "Playfair Display", serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
@@ -126,12 +126,12 @@ body {
     left: 90px;
 }
 .text1-2 {
-    width: 330px;
+    width: 300px;
     height: 90px;
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -231,16 +231,16 @@ body {
     position: absolute;
 }
 .text2-1, .text2-2, .text2-3 {
+    width: 270px;
+    height: 18px;
     color: #000000;
     font-family: "Josefin Sans";
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    font-style: normal;
-    line-height: normal;
 }
 .text2-1{
     width: 320px;
@@ -263,15 +263,15 @@ body {
     left: 765px;
     position: absolute;
 }
-.text2-4, .text2-6, .text2-8{
+.text2-4, .text2-6, .text2-8, .text2-4-2, .text2-6-2, .text2-8-2, .text2-4-3, .text2-6-3, .text2-8-3{
     font-family: 'Font Awesome';
     font-size: 12px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 350;
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    top: 290px;
+    top: 285px;
 }
 .text2-4{
     left: 55px;
@@ -280,20 +280,41 @@ body {
     left: 120px;
 }
 .text2-8{
-    left: 155px;
+    left: 145px;
 }
-.text2-5, .text2-7, .text2-9{
+.text2-4-2{
+    left: 410px;
+}
+.text2-6-2{
+    left: 475px;
+}
+.text2-8-2{
+    left: 500px;
+}
+.text2-4-3{
+    top: 305px;
+    left: 765px;
+}
+.text2-6-3{
+    top: 305px;
+    left: 830px;
+}
+.text2-8-3{
+    top: 305px;
+    left: 855px;
+}
+.text2-5, .text2-7, .text2-9, .text2-5-2, .text2-7-2, .text2-9-2, .text2-5-3, .text2-7-3, .text2-9-3{
     width: 41px;
     height: 10px;
     color: #555555;
-    font-family: "Open Sans", serif;
+    font-family: "Open Sans";
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 600;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    top: 77.5%;
+    top: 76%;
     position: absolute;
 }
 .text2-5{
@@ -303,15 +324,61 @@ body {
     left: 135px;
 }
 .text2-9{
-    left: 170px;
+    left: 160px;
+}
+.text2-5{
+    left: 70px;
+}
+.text2-7{
+    left: 135px;
+}
+.text2-9{
+    left: 160px;
+}
+.text2-5-2{
+    left: 425px;
+}
+.text2-7-2{
+    left: 490px;
+}
+.text2-9-2{
+    left: 515px;
+}
+.text2-5-3{
+    top: 81.25%;
+    left: 780px;
+}
+.text2-7-3{
+    top: 81.25%;
+    left: 845px;
+}
+.text2-9-3{
+    top: 81.25%;
+    left: 870px;
 }
 .line2-1{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
     position: absolute;
-    top: 290px;
+    top: 285px;
     left: 115px;
+}
+.line2-1-2{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 285px;
+    left: 470px;
+}
+.line2-1-3{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 305px;
+    left: 825px;
 }
 /* --------------------------------------------- */
 .block3{
@@ -327,7 +394,6 @@ body {
     width: 520px;
     height: 440px;
     position: absolute;
-    left: -15px;
 }
 .border3-1{
     width: 49px;
@@ -372,7 +438,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans", serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
