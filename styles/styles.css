@@ -1,61 +1,138 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 body {
     width: 1440px;
-    height: 9131px;
+    height: 5750px;
     background-color: #eaeaea;
 }
-.base {
+.header {
     width: 1120px;
     height: 123px;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
     background-color: #f8f8f8;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    top: 10px;
+    left: 150px;
+    position: absolute;
+}
+.LogoSmall{
+    width: 87px;
+    height: 36px;
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
+.text0-1, .text0-2, .text0-3, .text0-4, .text0-5{
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 57px;
+}
+.text0-1{
+    width: 10px;
+    left: 255px;
+}
+.text0-2{
+    width: 10px;
+    left: 335px;
+}
+.text0-3{
+    width: 150px;
+    left: 425px;
+}
+.text0-4{
+    width: 10px;
+    left: 605px;
+}
+.text0-5{
+    width: 140px;
+    left: 700px;
+}
+.find::-webkit-input-placeholder {
+    font-family: FontAwesome, serif;
+    color: #000000;
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    top: 32%;
+    left:5px;
+    opacity: 75%;
+    transform: skew(0deg);
+}
+.find{
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    width: 162px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    position: absolute;
+    top: 50px;
+    left: 865px;
+    vertical-align: center;
 }
 /* --------------------------------------------- */
 .block1 {
-    position: relative;
-    margin-top: 85px ;
-    text-align: center;
-}
-.Photo1{
     width: 1119px;
     height: 438px;
-    position: relative;
-
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+}
+.Photo1-1{
+    width: 1128px;
+    height: 449px;
+    position: absolute;
+    top: -5px;
 }
 .Logo1 {
     width: 252px;
     height: 105px;
     position: absolute;
     top: 50px;
-    left: 245px;
+    left: 90px;
 }
-.text1 {
-    position: absolute;
-    width: 355px;
+.text1-1 {
+    width: 400px;
     height: 20px;
     color: #921026;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", serif;
     font-size: 24px;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.6px;
-    line-height: normal;
+    position: absolute;
     top: 190px;
-    left: 245px;
+    left: 90px;
 }
-.text2 {
-    width: 312px;
+.text1-2 {
+    width: 300px;
     height: 90px;
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -65,34 +142,30 @@ body {
     line-height: normal;
     position: absolute;
     top: 240px;
-    left: 245px;
+    left: 90px;
 }
-.text3 {
-    width: 90px;
-    height: 10px;
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 12px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    text-transform: uppercase;
-    font-style: normal;
-    letter-spacing: 0.3px;
-    line-height: normal;
-    position: absolute;
-    top: 365px;
-    left: 255px;
-}
-.border1 {
+.btn1-1 {
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: white;
     position: absolute;
-    top: 355px;
-    left: 245px;
+    top: 350px;
+    left: 90px;
+}
+.btn1-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
 }
 .dot1-1, .dot1-2, .dot1-4, .dot1-5 {
     width: 8px;
@@ -103,10 +176,10 @@ body {
     position: absolute;
 }
 .dot1-1{
-    left: 1180px;
+    left: 1025px;
 }
 .dot1-2{
-    left: 1195px;
+    left: 1040px;
 }
 .dot1-3 {
     width: 8px;
@@ -115,13 +188,16 @@ body {
     border-radius: 50%;
     position: absolute;
     top: 405px;
-    left: 1210px;
+    left: 1055px;
 }
 .dot1-4{
-    left: 1225px;
+    left: 1070px;
 }
 .dot1-5{
-    left: 1240px;
+    left: 1085px;
+}
+.dot1-1:hover, .dot1-2:hover, .dot1-3:hover, .dot1-4:hover, .dot1-5:hover{
+    cursor: pointer;
 }
 /* --------------------------------------------- */
 .block2 {
@@ -130,8 +206,9 @@ body {
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     display: block;
-    margin: 90px auto auto;
-    position: relative;
+    top: 730px;
+    left: 150px;
+    position: absolute;
 }
 .Photo2-1 {
     width: 313px;
@@ -155,16 +232,16 @@ body {
     position: absolute;
 }
 .text2-1, .text2-2, .text2-3 {
+    width: 270px;
+    height: 18px;
     color: #000000;
     font-family: "Josefin Sans";
-    font-size: 17px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    font-style: normal;
-    line-height: normal;
 }
 .text2-1{
     width: 320px;
@@ -187,6 +264,602 @@ body {
     left: 765px;
     position: absolute;
 }
+.text2-4, .text2-6, .text2-8, .text2-4-2, .text2-6-2, .text2-8-2, .text2-4-3, .text2-6-3, .text2-8-3{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 350;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 285px;
+}
+.text2-4{
+    left: 55px;
+}
+.text2-6{
+    left: 120px;
+}
+.text2-8{
+    left: 145px;
+}
+.text2-4-2{
+    left: 410px;
+}
+.text2-6-2{
+    left: 475px;
+}
+.text2-8-2{
+    left: 500px;
+}
+.text2-4-3{
+    top: 305px;
+    left: 765px;
+}
+.text2-6-3{
+    top: 305px;
+    left: 830px;
+}
+.text2-8-3{
+    top: 305px;
+    left: 855px;
+}
+.text2-5, .text2-7, .text2-9, .text2-5-2, .text2-7-2, .text2-9-2, .text2-5-3, .text2-7-3, .text2-9-3{
+    width: 41px;
+    height: 10px;
+    color: #555555;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    top: 76%;
+    position: absolute;
+}
+.text2-5{
+    left: 70px;
+}
+.text2-7{
+    left: 135px;
+}
+.text2-9{
+    left: 160px;
+}
+.text2-5{
+    left: 70px;
+}
+.text2-7{
+    left: 135px;
+}
+.text2-9{
+    left: 160px;
+}
+.text2-5-2{
+    left: 425px;
+}
+.text2-7-2{
+    left: 490px;
+}
+.text2-9-2{
+    left: 515px;
+}
+.text2-5-3{
+    top: 81.25%;
+    left: 780px;
+}
+.text2-7-3{
+    top: 81.25%;
+    left: 845px;
+}
+.text2-9-3{
+    top: 81.25%;
+    left: 870px;
+}
+.line2-1{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 285px;
+    left: 115px;
+}
+.line2-1-2{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 285px;
+    left: 470px;
+}
+.line2-1-3{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    top: 305px;
+    left: 825px;
+}
+/* --------------------------------------------- */
+.block3{
+    width: 1120px;
+    height: 438px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    top: 1200px;
+    left: 150px;
+    position: absolute;
+}
+.Photo3-1{
+    width: 520px;
+    height: 440px;
+    position: absolute;
+}
+.border3-1{
+    width: 49px;
+    height: 62px;
+    background-color: #000000;
+    opacity: 50%;
+    position: relative;
+    left: 435px;
+}
+.text3-1{
+    width: 23px;
+    height: 26px;
+    color: #ffffff;
+    font-family: "Font Awesome", serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+}
+.text3-2{
+    width: 550px;
+    height: 27px;
+    color: #055555;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 37px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+    left: 555px;
+}
+.text3-3, .text3-4{
+    height: 265px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+    font-weight: 350;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    left: 555px;
+}
+.text3-3{
+    width: 400px;
+    top: 135px;
+}
+.text3-4{
+    width: 500px;
+    top: 170px;
+}
+.scroll3-1, .scroll3-2{
+    height: 267px;
+    position: absolute;
+    top: 130px;
+    left: 1070px;
+}
+.scroll3-1{
+    opacity: 0.2;
+    width: 2px;
+    background-color: #555555;
+}
+.scroll3-2{
+    width: 2px;
+    height: 126px;
+    background-color: #555555;
+}
+.scroll3-2:hover{
+    cursor: pointer;
+}
+.text3-5{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+    left: 555px;
+    top: 220px;
+}
+.text3-6, .text3-7, .text3-8, .text3-9{
+    font-family: Sylfaen, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    position: absolute;
+}
+.text3-6{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 255px;
+}
+.text3-7{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 335px;
+}
+.text3-8{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 355px;
+}
+.text3-9{
+    width: 500px;
+    font-size: 15px;
+    left: 555px;
+    top: 375px;
+}
+.bar3-1{
+    width: 5px;
+    height: 11px;
+    background-color: #555555;
+    position: absolute;
+    top: 90px;
+    left: 641px;
+}
+.bar3-2{
+    width: 5px;
+    height: 15px;
+    background-color: #555555;
+    position: absolute;
+    top: 86px;
+    left: 648px;
+}
+.bar3-3{
+    width: 5px;
+    height: 19px;
+    background-color: #555555;
+    position: absolute;
+    top: 82px;
+    left: 655px;
+}
+.bar3-4{
+    width: 5px;
+    height: 24px;
+    border: 1px solid #555555;
+    position: absolute;
+    top: 75px;
+    left: 662px;
+}
+.text3-10{
+    width: 53px;
+    height: 13px;
+    color: #555555;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 85px;
+    left: 580px;
+}
+.text3-11{
+    width: 14px;
+    height: 15px;
+    color: #555555;
+    font-family: "Font Awesome", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 85px;
+    left: 560px;
+}
+.text3-12{
+    width: 33px;
+    height: 17px;
+    color: #555555;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 85px;
+    left: 675px;
+}
+.btn3-1 {
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 960px;
+}
+.btn3-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+/* --------------------------------------------- */
+.block4{
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    width: 518px;
+    height: 518px;
+    top: 1770px;
+    left: 150px;
+    position: absolute;
+}
+.Photo4-1{
+    width: 518px;
+    height: 518px;
+    position: relative;
+}
+.bar4-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.text4-1{
+    width: 35px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    transform: skew(-5deg);
+    position: absolute;
+    top: 25px;
+    left: 45px;
+}
+.btn4-1{
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    background: white;
+    top: 440px;
+    left: 205px;
+}
+.btn4-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+.text4-2{
+    width: 79px;
+    height: 33px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 210px;
+    left: 225px;
+}
+.text4-3{
+    width: 130px;
+    height: 32px;
+    color: #a9a9a9;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 255px;
+    left: 200px;
+}
+.Photo4-2{
+    position: absolute;
+    top: 305px;
+    left: 250px;
+}
+/* --------------------------------------------- */
+.block5{
+    width: 518px;
+    height: 519px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    top: 1770px;
+    left: 755px;
+    position: absolute;
+}
+.bar5-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 50px;
+    left: 35px;
+}
+.bar5-2{
+    width: 291px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    position: absolute;
+    top: 175px;
+    left: 180px;
+}
+.text5-1{
+    width: 150px;
+    height: 24px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 90px;
+    left: 180px;
+}
+.text5-2{
+    width: 150px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+}
+.text5-3{
+    width: 150px;
+    height: 17px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 205px;
+    left: 180px;
+    transform: skew(-5deg);
+}
+.text5-4{
+    width: 288px;
+    height: 148px;
+    color: #000000;
+    font-family: "Josefin Sans - Light Italic", serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 255px;
+    left: 180px;
+    transform: skew(-2deg);
+}
+.text5-5{
+    width: 58px;
+    height: 17px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    transform: skew(-5deg);
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+.Photo5-1{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 75px;
+    left: 30px;
+}
+.Photo5-2{
+    position: absolute;
+    top: 425px;
+    left: 315px;
+}
+.google5, .facebook5, .twitter5, .pinterest5{
+    width: 20px;
+    height: 15px;
+    opacity: 0.5;
+    color: #555555;
+    font-family: "Font Awesome", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    position: absolute;
+    top: 145px;
+}
+.google5{
+    left: 180px;
+}
+.facebook5{
+    left: 210px;
+}
+.twitter5{
+    left: 230px;
+}
+.pinterest5{
+    left: 255px;
+}
 /* ====================IVAN PART============== */
 .block6{
     width: 289px;
@@ -196,9 +869,1037 @@ body {
     position: absolute;
     left: 200px;
     top: 2365px;
+}
+.text6-1{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    position: absolute;
+    top: 30px;
+    left: 45px;
+}
+.photo6-1{
+    position: absolute;
+    left: 25px;
+    top: 70px;
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.line6-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+}
+.text6-2{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 80px;
 
 }
+.text6-3{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.text6-4{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+.text6-5{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 115px;
+    top: 120px;
+}
+.text6-6{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 165px;
+    top: 120px;
+}
+.text6-7{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 180px;
+    top: 120px;
+}
+.text6-8{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 190px;
+    top: 120px;
+}
+.text6-9{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left: 205px;
+    top: 120px;
+}
+.line6-2{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    opacity: 0.5;
+}
+.photo6-2{
+    width: 289px;
+    height: 204px;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 145px;
+}
+.dot6-1, .dot6-2, .dot6-4, .dot6-5 {
+    width: 8px;
+    height: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 330px;
+    position: absolute;
+}
+.dot6-3{
+    width: 8px;
+    height: 8px;
+    background-color: #555555;
+    border-radius: 50%;
+    top: 330px;
+    left: 145px;
+    position: absolute;
+}
+.dot6-1{
+    left:115px;
+}
+.dot6-2{
+    left:130px;
+}
+.dot6-4{
+    left:160px;
+}
+.dot6-5{
+    left:175px;
+}
+.dot6-1:hover,.dot6-2:hover,.dot6-3:hover,.dot6-4:hover,.dot6-5:hover{
+    cursor: pointer;
+}
+/*--------------------------*/
+.block7{
+    width: 290px;
+    height: 427px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left: 585px;
+    top: 2365px;
+}
+.text7-1{
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 15px;
+    top: 30px;
+
+}
+.line7-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    position: absolute;
+    left: 15px;
+    top:   55px;
+}
+.text7-2{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.text7-3{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 115px
+}
+.text7-4{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top: 70px;
+    left: 190px
+}
+.text7-2:hover, .text7-3:hover, .text7-4:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.photo7-1{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:110px;
+}
+.photo7-2{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:210px;
+}
+.photo7-3{
+    width: 49px;
+    height: 45px;
+    background-color: #8e2e2e;
+    position: absolute;
+    left: 20px;
+    top:300px;
+}
+.viewbutton{
+    font-family: 'Josefin Sans';
+    font-size:12px;
+    line-height: 1.2;
+    top:380px;
+    left:165px;
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    font-weight: 300;
+    color: #010101;
+    background-color: #ffffff;
+}
+.viewbutton:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+.text7-5{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top:110px;
+    left: 85px;
+}
+.text7-6{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left:100px;
+    top:110px;
+}
+.text7-7{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 85px;
+    right:15px;
+    top:130px;
+}
+.text7-8{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top:210px;
+    left: 85px;
+}
+.text7-9{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left:100px;
+    top:210px;
+}
+.text7-10{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 85px;
+    right:30px;
+    top:230px;
+}
+.text7-11{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    top:300px;
+    left: 85px;
+}
+.text7-12{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left:100px;
+    top:300px;
+}
+.text7-13{
+    font-family: 'Josefin Sans';
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 85px;
+    right:30px;
+    top:320px;
+}
+.icons7-1{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 110px;
+}
+.icons7-2{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 80px;
+}
+.icons7-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.icons7-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 35px;
+    right: 25px;
+}
+/*----------------------------------------------------------*/
+.block8{
+    width: 290px;
+    height: 349px;
+    position: absolute;
+    left: 935px;
+    top: 2365px;
+}
+.photo8-1{
+    width: 290px;
+    height: 349px;
+    background-color: #988f8f;
+}
+.text8-1{
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #921026;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.text8-2{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 20px;
+    top: 95px;
+
+}
+.text8-3{
+
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #222222;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+    width: 250px;
+
+}
+.text8-4{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:130px;
+    top:205px;
+}
+.text8-5{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:145px;
+    top:205px;
+}
+.text8-6{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:190px;
+    top:205px;
+}
+.text8-7{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:205px;
+    top:205px;
+}
+.text8-8{
+    font-family: 'Font Awesome';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:230px;
+    top:205px;
+}
+.text8-9{
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:245px;
+    top:205px;
+}
+.line8-1{
+    width: 1px;
+    height: 14px;
+    background-color: #6f6f6f;
+    position: absolute;
+    left:185px;
+    top:205px;
+}
+.viewbutton8-1{
+    font-family: 'Josefin Sans';
+    font-size:12px;
+    line-height: 1.2;
+    top:200px;
+    left:20px;
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    border: 1px solid #c2c2c2;
+    font-weight: 300;
+    color: #010101;
+    background-color: #ffffff;
+}
+.viewbutton8-1:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
+}
+/*---------------------------------------------------------*/
+.block9{
+    width: 290px;
+    height: 471px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left:200px;
+    top:2760px;
+}
+.text9-1{
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left:15px;
+    top:35px;
+}
+.line9-1{
+    width: 251px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    position: absolute;
+    left:15px;
+    top:65px;
+}
+.text9-2{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    position: absolute;
+    left:30px;
+    top:85px;
+}
+.text9-3{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:105px;
+    top:145px;
+}
+.text9-4{
+    opacity: 0.5;
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 105px;
+    top:165px;
+    right: 40px;
+}
+.text9-5{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:105px;
+    top:250px;
+}
+.text9-6{
+    opacity: 0.5;
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 105px;
+    top:275px;
+    right: 30px;
+}
+.text9-7{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    left:105px;
+    top:365px;
+}
+.text9-8{
+    opacity: 0.5;
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 105px;
+    top:385px;
+    right: 50px;
+}
+.img9-1{
+    width: 58px;
+    height: 59px;
+    background-color: #b7b7b7;
+    position: absolute;
+    left:25px;
+    top:145px;
+}
+.img9-2{
+    width: 58px;
+    height: 59px;
+    background-color: #b7b7b7;
+    position: absolute;
+    left:25px;
+    top:250px;
+}
+.img9-3{
+    width: 58px;
+    height: 59px;
+    background-color: #b7b7b7;
+    position: absolute;
+    left:25px;
+    top:355px;
+}
+.img9-4{
+    width: 30px;
+    height: 55px;
+    background-color: #b50051;
+    position: absolute;
+    left: 53px;
+    top: 149px;
+}
+.img9-5{
+    width: 53px;
+    height: 59px;
+    background-color: #055454;
+    position: absolute;
+    left:30px;
+    top:250px;
+}
+.img9-6{
+    width: 58px;
+    height: 29px;
+    background-color: #87d0c5;
+    position: absolute;
+    top:385px;
+    left: 25px;
+}
+.text9-9{
+    font-family: 'Josefin Sans';
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:37px;
+    top:162px;
+}
+.text9-10{
+    font-family: 'Josefin Sans';
+    font-size: 21.4px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:36px;
+    top:269px;
+}
+.text9-11{
+    font-family: 'Josefin Sans';
+    font-size: 21.4px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:36px;
+    top:375px;
+}
+
+.icons9-1{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 107px;
+}
+.icons9-2{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 77px;
+}
+.icons9-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 52px;
+}
+.icons9-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 22px;
+}
+/*--------------------------------------------------*/
+.block10 {
+    width: 290px;
+    height: 430px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left:935px;
+    top:2760px;
+}
+.text10-1{
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #000000;
+    position: absolute;
+    left: 20px;
+    top:35px;
+}
+.icons10-1{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 120px;
+}
+.icons10-2{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 90px;
+}
+.icons10-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 65px;
+}
+.icons10-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 35px;
+}
+.line10-1{
+    width: 251px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    position: absolute;
+    top:65px;
+    left:15px;
+}
+.text10-2{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    position: absolute;
+    left:30px;
+    top:85px;
+}
+.text10-3{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #6a6a6a;
+    position: absolute;
+    left:50px;
+    top:340px;
+    right:30px;
+}
+.line10-2{
+    width: 9px;
+    height: 68px;
+    background-color: #87d0c5;
+    position: absolute;
+    left:70px;
+    bottom: 125px;
+}
+.line10-3{
+    width: 10px;
+    height: 99px;
+    background-color: #0d5959;
+    position: absolute;
+    left:155px;
+    bottom: 125px;
+}
+.line10-4{
+    width: 9px;
+    height: 131px;
+    background-color: #b50051;
+    position: absolute;
+    left:245px;
+    bottom: 125px;
+}
+.text10-4{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:50px;
+    bottom: 125px;
+}
+.text10-5{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:135px;
+    bottom: 125px;
+}
+.text10-6{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:225px;
+    bottom: 125px;
+}
+.text10-7{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:67px;
+    top:185px;
+}
+.text10-8{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:152px;
+    top:155px;
+}
+.text10-9{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #555555;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    position: absolute;
+    left:242px;
+    top:120px;
+}
+.line10-5{
+    width: 205px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    position: absolute;
+    left:50px;
+    bottom:105px;
+}
 /* ======================ARTYOM===============*/
+
 .block11 {
     width: 290px;
     height: 160px;
@@ -212,7 +1913,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -227,7 +1928,7 @@ body {
     width: 36px;
     height: 19px;
     top: 26px;
-    left: 17px;   
+    left: 17px;
 }
 .second {
     width: 76px;
@@ -272,22 +1973,55 @@ body {
     top: 46px;
     left: 25px;
 }
-.text11-1 {
+.text11-1-1 {
     width: 237px;
     height: 68px;
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     /*letter-spacing: normal;*/
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
-    font-style: normal;
     line-height: normal;
     position: absolute;
     top: 63px;
+    left: 23px;
+}
+.text11-1-2 {
+    width: 237px;
+    height: 68px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 350;
+    font-style: normal;
+    /*letter-spacing: normal;*/
+    line-height: 3;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: normal;
+    position: absolute;
+    top: 93px;
+    left: 23px;
+}
+.text11-1-3 {
+    width: 237px;
+    height: 68px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 350;
+    font-style: normal;
+    /*letter-spacing: normal;*/
+    line-height: 3;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: normal;
+    position: absolute;
+    top: 123px;
     left: 23px;
 }
 .block12 {
@@ -322,7 +2056,7 @@ body {
     height: 9px;
     color: #555555;
     font-family: "Font Awesome";
-    font-size: -14px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     font-style: normal;
@@ -421,12 +2155,23 @@ body {
 .login {
     width: 265px;
     height: 40px;
-    box-shadow: inset 1px 2px 7px rgba(11, 12, 12, 0.37);
+    box-shadow: inset 1px 2px 2px rgba(11, 12, 12, 0.37);
     border: 1px solid #c2c2c2;
     background-color: #ffffff;
     position: absolute;
     top: 116px;
     left: 32px;
+}
+input {
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
 }
 input::placeholder {
     width: 150px;
@@ -472,7 +2217,7 @@ input::placeholder {
     border-radius: 20%;
 }
 .text13-2 {
-    width: 80px;
+    width: 100px;
     height: 10px;
     opacity: 0.54;
     color: #000000;
@@ -486,7 +2231,7 @@ input::placeholder {
     letter-spacing: 0.3px;
     transform: skew(-7deg);
     position: absolute;
-    top: 232px;
+    top: 234px;
     left: 48px;
 }
 .btlogin {
@@ -528,8 +2273,10 @@ input::placeholder {
     letter-spacing: 0.3px;
 }
 button:hover {
-    background-color: #e9dfdf;
+    background-color: #c2c2c2;
+    cursor: pointer;
 }
+
 .text13-4 {
     width: 150px;
     height: 10px;
@@ -545,14 +2292,14 @@ button:hover {
     letter-spacing: 0.3px;
     transform: skew(-7deg);
     position: absolute;
-    top: 232px;
+    top: 234px;
     left: 178px;
 
 }
 .facebook {
     position: absolute;
     top: 327px;
-    left: 135px; 
+    left: 135px;
     width: 12px;
     height: 22px;
     color: #555555;
@@ -563,12 +2310,12 @@ button:hover {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;   
+    letter-spacing: 0.3px;
 }
 .facebook2 {
     position: absolute;
     top: 399px;
-    left: 137px; 
+    left: 137px;
     width: 12px;
     height: 22px;
     color: #555555;
@@ -579,12 +2326,12 @@ button:hover {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;   
+    letter-spacing: 0.3px;
 }
 .g {
     position: absolute;
     top: 330px;
-    left: 169px;    
+    left: 169px;
     width: 29px;
     height: 19px;
     color: #555555;
@@ -595,11 +2342,11 @@ button:hover {
     letter-spacing: normal;
     text-align: left;
     letter-spacing: 0.55px;
-} 
+}
 .g2 {
     position: absolute;
     top: 402px;
-    left: 171px;    
+    left: 171px;
     width: 29px;
     height: 19px;
     color: #555555;
@@ -610,7 +2357,7 @@ button:hover {
     letter-spacing: normal;
     text-align: left;
     letter-spacing: 0.55px;
-} 
+}
 .text13-5 {
     width: 250px;
     height: 16px;
@@ -626,7 +2373,8 @@ button:hover {
     letter-spacing: 0.4px;
     position: absolute;
     top: 367px;
-    left: 64px;  
+    left: 64px;
+    transform: skew(-7deg);
 }
 .block14 {
     width: 328px;
@@ -710,6 +2458,7 @@ button:hover {
     position: absolute;
     top: 448px;
     left: 35px;
+    transform: skew(-7deg);
 }
 .text14-6 {
     width: 216px;
@@ -725,6 +2474,7 @@ button:hover {
     position: absolute;
     top: 463px;
     left: 35px;
+    transform: skew(-7deg);
 }
 .text14-7 {
     width: 36px;
@@ -743,8 +2493,8 @@ button:hover {
     left: 39px;
 }
 
-
 /* ===================PASHASASHSHASHA============= */
+/*------------------------block 15-----------------------*/
 .block15 {
     width: 838px;
     height: 187px;
@@ -754,12 +2504,12 @@ button:hover {
     top: 4175px;
     position: absolute;
 }
-.text15-1{
+.text15-1, .text16-1{       /*block16 - text1 */
     color: #000000;
     font-family: "Josefin Sans";
     transform: skew(-7deg);
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
@@ -803,18 +2553,30 @@ button:hover {
     border: 1px solid #c2c2c2;
     position:absolute;
 }
-.Photo15-4{
+.btn15-4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
     top:90px;
     left:680px;
     position: absolute;
-    /*border: 0.75px solid #c2c2c2;*/
+    width:87px;
+    font-weight: 300;
+    height:40px;
+    text-decoration-color: #c2c2c2;
+    color: #ffffff;
+    background-color: #383737;
+}
+.btn15-4:hover{
+    background-color: #c2c2c2;
+    color:#000000;
+    cursor: pointer;
 }
 .text15-3, .text15-4, .text15-5{
     font-family: 'Josefin Sans', sans-serif;
     transform: skew(-7deg);
     font-size: 16px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: normal;
     color: #000000;
     position: absolute;
@@ -830,4 +2592,360 @@ button:hover {
 .text15-5{
     left:740px;
     top:35px;
+}
+/*-----------------------block 16-------------------------*/
+.block16{
+    width: 838px;
+    height: 761px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    top:4410px;
+    left:280px;
+}
+.block16-1, .block16-2, .block16-3, .block16-4{
+    position: absolute;
+    top:60px;
+    left:40px;
+    width: 745px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+}
+.text16-1{
+    top: 20px;
+}
+.Photo16-1{
+    position: absolute;
+    top:90px;
+    left:50px;
+}
+.Photo16-2{
+    position: absolute;
+    top:445px;
+    left:120px;
+}
+.Photo16-3{
+    position: absolute;
+    top:610px;
+    left:50px;
+}
+.Photo16-4{
+    position: absolute;
+    top:160px;
+    left:125px;
+}
+.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .text16-7, .text16-8, .date16-1 , .text16-9, .text16-10,
+.reply16-2, .reply16-3, .date16-2, .date16-3, .text16-11, .text16-12{
+    font-family: 'Josefin Sans';
+    line-height: 1.2;
+    position: absolute;
+    letter-spacing: normal;
+}
+.text16-2, .text16-9, .text16-10, .text16-11{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:85px;
+    left:130px;
+}
+.text16-3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    top: 105px;
+    left:130px;
+}
+.text16-4, .reply16-2, .reply16-3{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #629494;
+    position: absolute;
+    top:105px;
+    left:305px;
+}
+.text16-5, .text16-6{
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    top:385px;
+    left:125px;
+}
+.text16-6{
+    left:130px;
+    top: 675px;
+}
+.date16-1, .date16-2, .date16-3{
+    font-size: 12px;
+    font-weight: 700;
+    color: #629494;
+    top:130px;
+    left:130px;
+}
+.date16-2{
+    left:200px;
+    top:490px;
+}
+.date16-3{
+    top:650px;
+}
+.block16-2{
+    width: 655px;
+    top:425px;
+    left:125px;
+}
+.block16-3{
+    top:590px;
+}
+.block16-4{
+    top:705px;
+}
+.text16-7{
+    top:465px;
+    left:200px;
+    font-weight: 700;
+}
+.text16-8{
+    top:625px;
+    left:130px;
+    font-weight: 700;
+}
+.text16-9{
+    left:200px;
+    top:445px;
+}
+.text16-10{
+    top:605px;
+}
+.reply16-2{
+    top:465px;
+    left:375px;
+}
+.reply16-3{
+    top:625px;
+}
+.text16-11{
+    top:515px;
+    left:200px;
+    font-weight: 600;
+}
+.text16-12{
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    left:400px;
+    top:555px;
+}
+.t456-1, .t456-2, .t456-3{
+    opacity: 0.8;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: normal;
+    left:700px;
+    position: absolute;
+}
+.t456-1, .t15-1{
+    top:110px;
+}
+.t456-2, .t15-2{
+    top:470px;
+}
+.t456-3, .t15-3{
+    top:635px;
+}
+.t15-1, .t15-2, .t15-3{
+    position: absolute;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #555555;
+    left:750px;
+}
+.share16-1, .share16-2, .share16-3{
+    position: absolute;
+    left: 725px;
+    cursor: pointer;
+}
+.share16-1, .like16-1{ top: 110px; }
+.share16-2, .like16-2{ top: 470px; }
+.share16-3, .like16-3{ top: 635px; }
+
+.like16-1, .like16-2, .like16-3{
+    position: absolute;
+    width:15px;
+    height:15px;
+    left: 765px;
+    cursor: pointer;
+}
+.ellipse16{
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    left:375px;
+    top:165px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.pinterest16{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #555555;
+    position: absolute;
+    top:10px;
+    left:20%;
+}
+.pinterest16:hover{
+    opacity:1;
+    color: rgb(0, 0, 0);
+}
+/*-----------------------block 17--------------------------*/
+.block17{
+    width: 838px;
+    height: 92px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    top: 5215px;
+    left: 280px;
+}
+.text17-arrowleft, .text17-arrowright, .text17-1, .text17-2, .text17-3, .text17-4, .text17-5, .text17-6{
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: normal;
+    top: 40%;
+    color: #000000;
+    position: absolute;
+}
+.text17-arrowleft{
+    left: 270px;
+}
+.text17-1{
+    left: 310px;
+}
+.text17-2{
+    left: 350px;
+    color: #629494;
+}
+.text17-3{
+    left: 390px;
+}
+.text17-4{
+    left: 430px;
+}
+.text17-5{
+    left: 470px;
+}
+.text17-6{
+    left: 510px;
+}
+.text17-arrowright{
+    left: 550px;
+}
+/*------------------------block 18-----------------------*/
+.block18{
+    width: 1120px;
+    height: 180px;
+    opacity: 0.8;
+    background-color: #000000;
+    box-shadow: 0px 3px 7px 0px rgba(11,12,12,0.14);
+    position: absolute;
+    top: 5460px;
+    left:150px;
+}
+.Logo_black{
+    position: absolute;
+    top: 40%;
+    left: 85px;
+}
+.text18-1, .text18-2, .text18-3, .text18-4, .text18-5, .text18-6{
+    opacity: 0.5;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #fefefe;
+    top:85px;
+    position: absolute;
+}
+.text18-1{
+    left:285px;
+}
+.text18-1:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-2{
+    left:345px;
+}
+.text18-2:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-3{
+    left:415px;
+}
+.text18-3:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-4{
+    left:545px;
+}
+.text18-4:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-5{
+    left:610px;
+}
+.text18-5:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.text18-6{
+    left:835px;
+}
+.google18, .twitter18, .facebook18, .pinterest18 {
+    top:110px;
+    position: absolute;
+    color: #fefefe;
+    opacity: 0.3;
+}
+.google18{
+    left:970px;
+}
+.google18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.twitter18{
+    left:1005px;
+}
+.twitter18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.facebook18{
+    left:1035px;
+}
+.facebook18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
+}
+.pinterest18{
+    left:1055px;
+}
+.pinterest18:hover{
+    opacity:1;
+    color: rgb(236, 236, 236);
 }
