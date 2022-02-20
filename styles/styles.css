@@ -973,7 +973,7 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 200px;
+    left: 190px;
     top: 120px;
 }
 .text6-9{
@@ -984,7 +984,7 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
     position: absolute;
-    left: 215px;
+    left: 205px;
     top: 120px;
 }
 .line6-2{
@@ -1890,7 +1890,7 @@ body {
     top:120px;
 }
 .line10-5{
-    width: 203px;
+    width: 205px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
@@ -1928,7 +1928,7 @@ body {
     width: 36px;
     height: 19px;
     top: 26px;
-    left: 17px;   
+    left: 17px;
 }
 .second {
     width: 76px;
@@ -1979,7 +1979,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     /*letter-spacing: normal;*/
     line-height: 3;
@@ -1996,7 +1996,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     /*letter-spacing: normal;*/
     line-height: 3;
@@ -2013,7 +2013,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     /*letter-spacing: normal;*/
     line-height: 3;
@@ -2276,7 +2276,7 @@ button:hover {
     background-color: #c2c2c2;
     cursor: pointer;
 }
-    
+
 .text13-4 {
     width: 150px;
     height: 10px;
@@ -2299,7 +2299,7 @@ button:hover {
 .facebook {
     position: absolute;
     top: 327px;
-    left: 135px; 
+    left: 135px;
     width: 12px;
     height: 22px;
     color: #555555;
@@ -2310,12 +2310,12 @@ button:hover {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;   
+    letter-spacing: 0.3px;
 }
 .facebook2 {
     position: absolute;
     top: 399px;
-    left: 137px; 
+    left: 137px;
     width: 12px;
     height: 22px;
     color: #555555;
@@ -2326,12 +2326,12 @@ button:hover {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;   
+    letter-spacing: 0.3px;
 }
 .g {
     position: absolute;
     top: 330px;
-    left: 169px;    
+    left: 169px;
     width: 29px;
     height: 19px;
     color: #555555;
@@ -2342,11 +2342,11 @@ button:hover {
     letter-spacing: normal;
     text-align: left;
     letter-spacing: 0.55px;
-} 
+}
 .g2 {
     position: absolute;
     top: 402px;
-    left: 171px;    
+    left: 171px;
     width: 29px;
     height: 19px;
     color: #555555;
@@ -2357,7 +2357,7 @@ button:hover {
     letter-spacing: normal;
     text-align: left;
     letter-spacing: 0.55px;
-} 
+}
 .text13-5 {
     width: 250px;
     height: 16px;
@@ -2373,7 +2373,7 @@ button:hover {
     letter-spacing: 0.4px;
     position: absolute;
     top: 367px;
-    left: 64px;  
+    left: 64px;
     transform: skew(-7deg);
 }
 .block14 {
@@ -2770,6 +2770,7 @@ button:hover {
 .share16-1, .share16-2, .share16-3{
     position: absolute;
     left: 725px;
+    cursor: pointer;
 }
 .share16-1, .like16-1{ top: 110px; }
 .share16-2, .like16-2{ top: 470px; }
@@ -2780,6 +2781,7 @@ button:hover {
     width:15px;
     height:15px;
     left: 765px;
+    cursor: pointer;
 }
 .ellipse16{
     width: 54px;
