@@ -2770,6 +2770,7 @@ button:hover {
 .share16-1, .share16-2, .share16-3{
     position: absolute;
     left: 725px;
+    cursor: pointer;
 }
 .share16-1, .like16-1{ top: 110px; }
 .share16-2, .like16-2{ top: 470px; }
@@ -2780,6 +2781,7 @@ button:hover {
     width:15px;
     height:15px;
     left: 765px;
+    cursor: pointer;
 }
 .ellipse16{
     width: 54px;
