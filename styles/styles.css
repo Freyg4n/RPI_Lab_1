@@ -272,7 +272,7 @@ body {
     top: 46px;
     left: 25px;
 }
-.text11-1 {
+.text11-1-1 {
     width: 237px;
     height: 68px;
     color: #000000;
@@ -284,10 +284,43 @@ body {
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
-    font-style: normal;
     line-height: normal;
     position: absolute;
     top: 63px;
+    left: 23px;
+}
+.text11-1-2 {
+    width: 237px;
+    height: 68px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    /*letter-spacing: normal;*/
+    line-height: 3;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: normal;
+    position: absolute;
+    top: 93px;
+    left: 23px;
+}
+.text11-1-3 {
+    width: 237px;
+    height: 68px;
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    /*letter-spacing: normal;*/
+    line-height: 3;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: normal;
+    position: absolute;
+    top: 123px;
     left: 23px;
 }
 .block12 {
@@ -427,6 +460,17 @@ body {
     position: absolute;
     top: 116px;
     left: 32px;
+}
+input {
+    color: #000000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
 }
 input::placeholder {
     width: 150px;
@@ -627,6 +671,7 @@ button:hover {
     position: absolute;
     top: 367px;
     left: 64px;  
+    transform: skew(-7deg);
 }
 .block14 {
     width: 328px;
@@ -710,6 +755,7 @@ button:hover {
     position: absolute;
     top: 448px;
     left: 35px;
+    transform: skew(-7deg);
 }
 .text14-6 {
     width: 216px;
@@ -725,6 +771,7 @@ button:hover {
     position: absolute;
     top: 463px;
     left: 35px;
+    transform: skew(-7deg);
 }
 .text14-7 {
     width: 36px;
