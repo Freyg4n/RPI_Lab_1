@@ -1331,10 +1331,10 @@ body {
 
 }
 .text8-3{
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
+    font-family: 'Josefin Sans', serif;
+    transform:skew(-4deg);
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.0;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #222222;
