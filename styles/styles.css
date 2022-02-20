@@ -1172,7 +1172,7 @@ body {
 }
 .text7-7{
     font-family: 'Josefin Sans';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.025em;
@@ -1206,7 +1206,7 @@ body {
 }
 .text7-10{
     font-family: 'Josefin Sans';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.025em;
@@ -1240,7 +1240,7 @@ body {
 }
 .text7-13{
     font-family: 'Josefin Sans';
-    font-size: 16px;
+    font-size: 15px;
     line-height: 16px;
     font-weight: 600;
     letter-spacing: 0.025em;
@@ -1333,7 +1333,7 @@ body {
 .text8-3{
     font-family: 'Josefin Sans';
     transform:skew(-7deg);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -1601,6 +1601,94 @@ body {
     position: absolute;
     top:385px;
     left: 25px;
+}
+.text9-9{
+    font-family: 'Josefin Sans';
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:37px;
+    top:162px;
+}
+.text9-10{
+    font-family: 'Josefin Sans';
+    font-size: 21.4px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:36px;
+    top:269px;
+}
+.text9-11{
+    font-family: 'Josefin Sans';
+    font-size: 21.4px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #959595;
+    position: absolute;
+    left:36px;
+    top:375px;
+}
+
+.icons9-1{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 107px;
+}
+.icons9-2{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 77px;
+}
+.icons9-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 52px;
+}
+.icons9-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+    position: absolute;
+    top: 40px;
+    right: 22px;
+}
+/*--------------------------------------------------*/
+.block10 {
+    width: 290px;
+    height: 430px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    position: absolute;
+    left:935px;
+    top:2760px;
 }
 /* ======================ARTYOM===============*/
 .block11 {
