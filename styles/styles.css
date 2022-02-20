@@ -60,14 +60,15 @@ body {
 .find::-webkit-input-placeholder {
     font-family: FontAwesome, serif;
     color: #000000;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 100;
     font-style: normal;
-    letter-spacing: normal;
+    letter-spacing: 1.5px;
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
-    top: 30%;
+    top: 32%;
+    left:5px;
     opacity: 75%;
     transform: skew(0deg);
 }
@@ -1105,6 +1106,10 @@ body {
     top: 70px;
     left: 190px
 }
+.text7-2:hover, .text7-3:hover, .text7-4:hover{
+    text-decoration: underline;
+    color: #000000;
+}
 .photo7-1{
     width: 49px;
     height: 45px;
@@ -1503,7 +1508,7 @@ body {
     position: absolute;
     left: 105px;
     top:165px;
-    right: 50px;
+    right: 40px;
 }
 .text9-5{
     font-family: 'Josefin Sans';
@@ -2051,7 +2056,7 @@ body {
     height: 9px;
     color: #555555;
     font-family: "Font Awesome";
-    font-size: -14px;
+    font-size: 14px;
     font-weight: 400;
     text-align: left;
     font-style: normal;
