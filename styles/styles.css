@@ -4,58 +4,39 @@ body {
     height: 5640px;
     background-color: #eaeaea;
 }
+/*=====================Header==================*/
 .header {
-    width: 1120px;
+    width: 930px;
     height: 123px;
     box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
     background-color: #f8f8f8;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top: 10px;
-    left: 150px;
-    position: absolute;
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 95px;
 }
-.LogoSmall{
-    width: 87px;
-    height: 36px;
-    position: absolute;
-    top: 45px;
-    left: 95px;
+.nav__links{
+    list-style: none;
 }
-.text0-1, .text0-2, .text0-3, .text0-4, .text0-5{
+.nav__links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav__links li a{
     height: 14px;
     color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-align: left;
     text-transform: uppercase;
-    position: absolute;
-    top: 57px;
 }
-.text0-1{
-    width: 10px;
-    left: 255px;
-}
-.text0-2{
-    width: 10px;
-    left: 335px;
-}
-.text0-3{
-    width: 150px;
-    left: 425px;
-}
-.text0-4{
-    width: 10px;
-    left: 605px;
-}
-.text0-5{
-    width: 140px;
-    left: 700px;
+.nav__links li a:hover{
+    color: #CE242B;
+    text-decoration: underline;
 }
 .find::-webkit-input-placeholder {
     font-family: FontAwesome, serif;
@@ -67,8 +48,6 @@ body {
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
-    top: 32%;
-    left:5px;
     opacity: 75%;
     transform: skew(0deg);
 }
@@ -83,33 +62,26 @@ body {
     width: 162px;
     height: 28px;
     border: 1px solid #c2c2c2;
-    position: absolute;
-    top: 50px;
-    left: 865px;
-    vertical-align: center;
 }
-/* --------------------------------------------- */
-.block1 {
+/*================Block1========================*/
+.block1{
     width: 1119px;
     height: 438px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    position: absolute;
-    top: 210px;
-    left: 150px;
+    background-image: url(../styles/images/Dima/Photo1-1.png);
+    margin-left: 150px;
+    margin-top: 85px;
+    display: flex;
 }
-.Photo1-1{
-    width: 1128px;
-    height: 449px;
-    position: absolute;
-    top: -5px;
+.block1-content{
+    display: flex;
 }
-.Logo1 {
+.Logo1{
     width: 252px;
     height: 105px;
-    position: absolute;
-    top: 50px;
-    left: 90px;
+    margin-top: 50px;
+    margin-left: 90px;
 }
 .text1-1 {
     width: 400px;
@@ -122,27 +94,22 @@ body {
     line-height: normal;
     text-align: left;
     font-style: normal;
-    position: absolute;
-    top: 190px;
-    left: 90px;
+    margin-top: 35px;
+    margin-left: 90px;
 }
 .text1-2 {
     width: 300px;
     height: 90px;
     color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 16px;
     font-weight: 350;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: normal;
     text-align: left;
     font-style: normal;
     letter-spacing: 0.4px;
-    line-height: normal;
-    position: absolute;
-    top: 240px;
-    left: 90px;
+    margin-top: 30px;
+    margin-left: 90px;
 }
 .btn1-1 {
     width: 105px;
@@ -158,251 +125,149 @@ body {
     text-align: center;
     text-transform: uppercase;
     background-color: white;
-    position: absolute;
-    top: 350px;
-    left: 90px;
+    margin-top: 35px;
+    margin-left: 90px;
 }
 .btn1-1:hover{
     background-color: #c2c2c2;
     color:#000000;
     cursor: pointer;
 }
+.left-panel1{
+    margin: 0;
+    padding: 0;
+}
+.left-panel1 li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.right-panel1{
+    margin-left: 82%;
+    margin-top: 65%;
+}
+.dot-nav-1{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 70px;
+}
 .dot1-1, .dot1-2, .dot1-4, .dot1-5 {
     width: 8px;
     height: 8px;
     background-color: #ffffff;
     border-radius: 50%;
-    top: 405px;
-    position: absolute;
-}
-.dot1-1{
-    left: 1025px;
-}
-.dot1-2{
-    left: 1040px;
 }
 .dot1-3 {
     width: 8px;
     height: 8px;
     background-color: #555555;
     border-radius: 50%;
-    position: absolute;
-    top: 405px;
-    left: 1055px;
-}
-.dot1-4{
-    left: 1070px;
-}
-.dot1-5{
-    left: 1085px;
 }
 .dot1-1:hover, .dot1-2:hover, .dot1-3:hover, .dot1-4:hover, .dot1-5:hover{
     cursor: pointer;
 }
-/* --------------------------------------------- */
+/*==================Block2========================*/
 .block2 {
     width: 1120px;
     height: 373px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    display: block;
-    top: 730px;
-    left: 150px;
-    position: absolute;
+    display: flex;
+    margin-top: 85px;
+    margin-left: 150px;
+    justify-content: space-evenly;
 }
-.Photo2-1 {
-    width: 313px;
-    height: 208px;
-    top: 40px;
-    left: 55px;
-    position: absolute;
+.content2-1, .content2-2, .content2-3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
-.Photo2-2{
-    width: 313px;
-    height: 208px;
-    top: 40px;
-    left: 410px;
-    position: absolute;
-}
-.Photo2-3{
-    width: 313px;
-    height: 208px;
-    top: 40px;
-    left: 765px;
-    position: absolute;
+.info2-1, .info2-2, .info2-3{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .text2-1, .text2-2, .text2-3 {
-    width: 270px;
+    width: 305px;
     height: 18px;
     color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 18px;
     font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-}
-.text2-1{
-    width: 320px;
-    height: 18px;
-    top: 260px;
-    left: 55px;
-    position: absolute;
-}
-.text2-2{
-    width: 250px;
-    height: 18px;
-    top: 260px;
-    left: 410px;
-    position: absolute;
-}
-.text2-3{
-    width: 320px;
-    height: 36px;
-    top: 260px;
-    left: 765px;
-    position: absolute;
+    margin-top: 10px;
 }
 .text2-4, .text2-6, .text2-8, .text2-4-2, .text2-6-2, .text2-8-2, .text2-4-3, .text2-6-3, .text2-8-3{
-    font-family: 'Font Awesome';
+    font-family: 'Font Awesome', serif;
     font-size: 12px;
     line-height: 1.2;
     font-weight: 350;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 285px;
+    margin-top: 10px;
 }
-.text2-4{
-    left: 55px;
-}
-.text2-6{
-    left: 120px;
-}
-.text2-8{
-    left: 145px;
-}
-.text2-4-2{
-    left: 410px;
-}
-.text2-6-2{
-    left: 475px;
-}
-.text2-8-2{
-    left: 500px;
-}
-.text2-4-3{
-    top: 305px;
-    left: 765px;
-}
-.text2-6-3{
-    top: 305px;
-    left: 830px;
-}
-.text2-8-3{
-    top: 305px;
-    left: 855px;
+.text2-4-3, .text2-6-3, .text2-8-3{
+    margin-top: 25px;
 }
 .text2-5, .text2-7, .text2-9, .text2-5-2, .text2-7-2, .text2-9-2, .text2-5-3, .text2-7-3, .text2-9-3{
-    width: 41px;
     height: 10px;
     color: #555555;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    top: 76%;
-    position: absolute;
+    margin-top: 8px;
 }
-.text2-5{
-    left: 70px;
+.text2-5-3, .text2-7-3, .text2-9-3{
+    margin-top: 23px;
 }
-.text2-7{
-    left: 135px;
-}
-.text2-9{
-    left: 160px;
-}
-.text2-5{
-    left: 70px;
-}
-.text2-7{
-    left: 135px;
-}
-.text2-9{
-    left: 160px;
-}
-.text2-5-2{
-    left: 425px;
-}
-.text2-7-2{
-    left: 490px;
-}
-.text2-9-2{
-    left: 515px;
-}
-.text2-5-3{
-    top: 81.25%;
-    left: 780px;
-}
-.text2-7-3{
-    top: 81.25%;
-    left: 845px;
-}
-.text2-9-3{
-    top: 81.25%;
-    left: 870px;
-}
-.line2-1{
+.line2-1, .line2-1-2, .line2-1-3{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
-    position: absolute;
-    top: 285px;
-    left: 115px;
-}
-.line2-1-2{
-    width: 1px;
-    height: 14px;
-    background-color: #6f6f6f;
-    position: absolute;
-    top: 285px;
-    left: 470px;
+    margin-top: 10px;
 }
 .line2-1-3{
-    width: 1px;
-    height: 14px;
-    background-color: #6f6f6f;
-    position: absolute;
-    top: 305px;
-    left: 825px;
+    margin-top: 25px;
 }
-/* --------------------------------------------- */
+/*=================Block3=======================*/
 .block3{
     width: 1120px;
     height: 438px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    top: 1200px;
-    left: 150px;
-    position: absolute;
+    background-image: url(../styles/images/Dima/Photo3-1.png);
+    background-repeat: no-repeat;
+    margin-top: 85px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
 }
-.Photo3-1{
-    width: 520px;
-    height: 440px;
-    position: absolute;
+.left-panel2 {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.right-panel2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .border3-1{
     width: 49px;
     height: 62px;
     background-color: #000000;
     opacity: 50%;
-    position: relative;
-    left: 435px;
+    margin-right: 60px;
+    position: absolute;
 }
 .text3-1{
     width: 23px;
@@ -414,10 +279,9 @@ body {
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-align: left;
-    position: absolute;
-    left: 450px;
-    top: 20px;
+    margin-right: 70px;
+    margin-top: 20px;
+    z-index: 1;
 }
 .text3-2{
     width: 550px;
@@ -430,138 +294,57 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 30px;
-    left: 555px;
+    margin-top: 30px;
 }
-.text3-3, .text3-4{
-    height: 265px;
-    color: #000000;
-    font-family: "Josefin Sans", serif;
-    font-size: 16px;
-    font-weight: 350;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    position: absolute;
-    left: 555px;
+.info3-1{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
 }
-.text3-3{
-    width: 400px;
-    top: 135px;
+.info-left3{
+    display: flex;
+    width: 175px;
+    justify-content: space-evenly;
 }
-.text3-4{
-    width: 500px;
-    top: 170px;
-}
-.scroll3-1, .scroll3-2{
-    height: 267px;
-    position: absolute;
-    top: 130px;
-    left: 1070px;
-}
-.scroll3-1{
-    opacity: 0.2;
-    width: 2px;
-    background-color: #555555;
-}
-.scroll3-2{
-    width: 2px;
-    height: 126px;
-    background-color: #555555;
-}
-.scroll3-2:hover{
-    cursor: pointer;
-}
-.text3-5{
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 0.4px;
-    line-height: normal;
-    position: absolute;
-    left: 555px;
-    top: 220px;
-}
-.text3-6, .text3-7, .text3-8, .text3-9{
-    font-family: Sylfaen, serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0.4px;
-    line-height: normal;
-    position: absolute;
-}
-.text3-6{
-    width: 500px;
-    font-size: 15px;
-    left: 555px;
-    top: 255px;
-}
-.text3-7{
-    width: 500px;
-    font-size: 15px;
-    left: 555px;
-    top: 335px;
-}
-.text3-8{
-    width: 500px;
-    font-size: 15px;
-    left: 555px;
-    top: 355px;
-}
-.text3-9{
-    width: 500px;
-    font-size: 15px;
-    left: 555px;
-    top: 375px;
+.bars{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 10px;
 }
 .bar3-1{
     width: 5px;
     height: 11px;
     background-color: #555555;
-    position: absolute;
-    top: 90px;
-    left: 641px;
 }
 .bar3-2{
     width: 5px;
     height: 15px;
     background-color: #555555;
-    position: absolute;
-    top: 86px;
-    left: 648px;
 }
 .bar3-3{
     width: 5px;
     height: 19px;
     background-color: #555555;
-    position: absolute;
-    top: 82px;
-    left: 655px;
 }
 .bar3-4{
     width: 5px;
     height: 24px;
     border: 1px solid #555555;
-    position: absolute;
-    top: 75px;
-    left: 662px;
 }
 .text3-10{
     width: 53px;
     height: 13px;
     color: #555555;
-    font-family: "Open Sans";
+    font-family: "Open Sans", serif;
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    text-align: left;
-    position: absolute;
-    top: 85px;
-    left: 580px;
+    margin-top: 7px;
 }
 .text3-11{
     width: 14px;
@@ -574,24 +357,21 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 85px;
-    left: 560px;
+    margin-top: 10px;
 }
 .text3-12{
     width: 33px;
-    height: 17px;
+    height: 18px;
     color: #555555;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 85px;
-    left: 675px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .btn3-1 {
     color: #000000;
@@ -607,38 +387,114 @@ body {
     height: 28px;
     border: 1px solid #c2c2c2;
     background-color: white;
-    position: absolute;
-    top: 80px;
-    left: 960px;
+    margin-left: 40%;
+    margin-top: 10px;
 }
 .btn3-1:hover{
     background-color: #c2c2c2;
     color:#000000;
     cursor: pointer;
 }
-/* --------------------------------------------- */
+.text-container-3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}
+.text3-3, .text3-4{
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
+    font-weight: 350;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.text3-3{
+    width: 400px;
+}
+.text3-4{
+    width: 500px;
+}
+.text3-5{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+    margin-top: 15px;
+}
+.text3-6, .text3-7, .text3-8, .text3-9{
+    font-family: Sylfaen, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: normal;
+}
+.text3-6{
+    margin-top: 15px;
+    width: 500px;
+    font-size: 15px;
+}
+.text3-7{
+    width: 500px;
+    font-size: 15px;
+}
+.text3-8{
+    width: 500px;
+    font-size: 15px;
+}
+.text3-9{
+    width: 500px;
+    font-size: 15px;
+}
+.text-3{
+    display: flex;
+}
+.scroll{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.scroll3-1, .scroll3-2{
+    height: 267px;
+    position: absolute;
+}
+.scroll3-1{
+    opacity: 0.2;
+    width: 2px;
+    background-color: #555555;
+}
+.scroll3-2{
+    width: 2px;
+    height: 126px;
+    background-color: #555555;
+}
+.scroll3-2:hover{
+    cursor: pointer;
+}
+/* ------------------Block4-5---------------------- */
+.blocks4-5{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 150px;
+}
+/* ------------------Block4---------------------- */
 .block4{
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     width: 518px;
     height: 518px;
-    top: 1770px;
-    left: 150px;
-    position: absolute;
+    background-image: url(../styles/images/Dima/Photo4-1.png);
+    display: flex;
+    flex-direction: column;
 }
-.Photo4-1{
-    width: 518px;
-    height: 518px;
-    position: relative;
-}
-.bar4-1{
-    width: 440px;
-    height: 2px;
-    background-color: #555555;
-    opacity: 0.2;
-    position: absolute;
-    top: 50px;
-    left: 35px;
+.plate-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+    height: 120px;
 }
 .text4-1{
     width: 35px;
@@ -652,9 +508,50 @@ body {
     line-height: normal;
     text-align: left;
     transform: skew(-5deg);
-    position: absolute;
-    top: 25px;
-    left: 45px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+.text4-2{
+    width: 79px;
+    height: 33px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+.bar4-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.text4-3{
+    width: 130px;
+    height: 32px;
+    color: #a9a9a9;
+    font-family: "Playfair Display - Black", serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Photo4-2{
+    height: 25px;
+    width: 31px;
+}
+.btn4-container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .btn4-1{
     width: 105px;
@@ -669,144 +566,95 @@ body {
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    position: absolute;
     background: white;
-    top: 440px;
-    left: 205px;
+    margin-top: 110px;
 }
 .btn4-1:hover{
     background-color: #c2c2c2;
     color:#000000;
     cursor: pointer;
 }
-.text4-2{
-    width: 79px;
-    height: 33px;
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 34px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    position: absolute;
-    top: 210px;
-    left: 225px;
-}
-.text4-3{
-    width: 130px;
-    height: 32px;
-    color: #a9a9a9;
-    font-family: "Playfair Display - Black", serif;
-    font-size: 16px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    text-transform: uppercase;
-    position: absolute;
-    top: 255px;
-    left: 200px;
-}
-.Photo4-2{
-    position: absolute;
-    top: 305px;
-    left: 250px;
-}
-/* --------------------------------------------- */
+/* ------------------Block5---------------------- */
 .block5{
     width: 518px;
     height: 519px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    top: 1770px;
-    left: 755px;
-    position: absolute;
+    display: flex;
+    margin-left: 85px;
+    flex-direction: column;
 }
-.bar5-1{
-    width: 440px;
-    height: 2px;
-    background-color: #555555;
-    opacity: 0.2;
-    position: absolute;
-    top: 50px;
-    left: 35px;
+.Photo5-1{
+    width: 130px;
+    height: 130px;
+    margin-top: 25px;
+    margin-left: 30px;
 }
-.bar5-2{
-    width: 291px;
-    height: 2px;
-    background-color: #555555;
-    opacity: 0.2;
-    position: absolute;
-    top: 175px;
-    left: 180px;
+.Photo5-2{
+    width: 163px;
+    height: 63px;
+    margin-top: 20px;
+    margin-left: 140px;
 }
 .text5-1{
-    width: 150px;
-    height: 24px;
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 24px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    position: absolute;
-    top: 90px;
-    left: 180px;
-}
-.text5-2{
-    width: 150px;
+    width: 58px;
     height: 14px;
     color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 16px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    position: absolute;
-    top: 120px;
-    left: 180px;
-}
-.text5-3{
-    width: 150px;
-    height: 17px;
-    color: #000000;
-    font-family: "Josefin Sans";
+    font-family: "Josefin Sans", serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 205px;
-    left: 180px;
     transform: skew(-5deg);
+    margin-top: 25px;
+    margin-left: 45px;
 }
-.text5-4{
-    width: 288px;
-    height: 148px;
+.bar5-1{
+    width: 440px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.author-text{
+    display: flex;
+}
+.right-panel3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.text5-2{
+    width: 150px;
+    height: 24px;
     color: #000000;
-    font-family: "Josefin Sans - Light Italic", serif;
-    font-size: 14px;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-top: 40px;
+}
+.text5-3{
+    width: 150px;
+    height: 14px;
+    color: #000000;
+    font-family: "Josefin Sans", serif;
+    font-size: 16px;
     font-weight: 400;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 255px;
-    left: 180px;
-    transform: skew(-2deg);
+    margin-top: 5px;
 }
-.text5-5{
-    width: 58px;
+.text5-4{
+    width: 150px;
     height: 17px;
     color: #000000;
     font-family: "Josefin Sans", serif;
@@ -817,21 +665,32 @@ body {
     line-height: normal;
     text-align: left;
     transform: skew(-5deg);
-    position: absolute;
-    top: 20px;
-    left: 45px;
+    margin-top: 25px;
 }
-.Photo5-1{
-    width: 128px;
-    height: 128px;
-    position: absolute;
-    top: 75px;
-    left: 30px;
+.text5-5{
+    font-family: 'Josefin Sans', serif;
+    width: 300px;
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #000000;
+
+    margin-top: 30px;
 }
-.Photo5-2{
-    position: absolute;
-    top: 425px;
-    left: 315px;
+.bar5-2{
+    width: 291px;
+    height: 2px;
+    background-color: #555555;
+    opacity: 0.2;
+    margin-top: 20px;
+}
+.social-links-5{
+    display: flex;
+    width: 105px;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .google5, .facebook5, .twitter5, .pinterest5{
     width: 20px;
@@ -845,20 +704,6 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
-    position: absolute;
-    top: 145px;
-}
-.google5{
-    left: 180px;
-}
-.facebook5{
-    left: 210px;
-}
-.twitter5{
-    left: 230px;
-}
-.pinterest5{
-    left: 255px;
 }
 /* ====================IVAN PART============== */
 .block6{
@@ -2162,7 +2007,7 @@ body {
     top: 116px;
     left: 32px;
 }
-input {
+.login, .usname, .password2, .rppassword {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 20px;
@@ -2173,7 +2018,7 @@ input {
     letter-spacing: 0.4px;
     line-height: normal;
 }
-input::placeholder {
+.login::placeholder, .usname::placeholder, .password2::placeholder, .rppassword::placeholder, .password::placeholder {
     width: 150px;
     height: 16px;
     opacity: 0.2;
