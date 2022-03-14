@@ -1753,7 +1753,7 @@ body {
     position: absolute;
     top: 2840px;
     left: 585px;
-    padding-top: 26px;
+    padding-top: 25px;
 }
 .text {
     color: #000000;
@@ -1772,17 +1772,17 @@ body {
 .first {
     width: 36px;
     height: 19px;
-    margin-left: 17px;
+    margin-left: 15px;
 }
 .second {
     width: 76px;
     height: 17px;
-    margin-left: 17px;
+    margin-left: 15px;
 }
 .third {
     width: 45px;
     height: 19px;
-    margin-left: 31px;
+    margin-left: 30px;
 }
 .fourth {
     width: 70px;
@@ -1797,25 +1797,25 @@ body {
 .spanz {
     display: flex;
     flex-direction: column;
-    margin-left: 23px;
+    margin-left: 20px;
 }
 .one {
     width: 252px;
     margin-top: 5px;
-    margin-left: 17px;
+    margin-left: 15px;
     margin-bottom: 15px;
 }
 .two {
     width: 252px;
-    margin-top: 7px;
-    margin-left: 17px;
-    margin-bottom: 22px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
 .three {
     width: 271px;
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 25px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
 }
 .last {
     top: 46px;
@@ -1823,8 +1823,8 @@ body {
 }
 .spcal {
     display: flex;
-    margin-left: 31px;
-    margin-bottom: 31px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 .text11-1-1 {
     width: 237px;
@@ -1878,7 +1878,7 @@ body {
     position: absolute;
     top: 3050px;
     left: 585px;
-    padding-top: 26px;
+    padding-top: 25px;
 }
 .text12-1 {
     width: 5px;
@@ -1894,9 +1894,6 @@ body {
     font-style: normal;
     letter-spacing: 0.35px;
     line-height: normal;
-    position: absolute;
-    top: 81px;
-    left: 31px;
 }
 .text12-2 {
     width: 5px;
@@ -1909,7 +1906,7 @@ body {
     font-style: normal;
     letter-spacing: 0.35px;
     line-height: normal;
-    margin-left: 67px;
+    margin-left: 65px;
 }
 .text12-3 {
     width: 80px;
@@ -1936,30 +1933,9 @@ body {
     line-height: normal;
     text-align: left;
     letter-spacing: 0.35px;
-    margin-left: 33px;
+    margin-left: 35px;
     transform: skew(-7deg);
     word-spacing: 10px;
-}
-.text12-5 {
-    width: 180px;
-    height: 170px;
-    color: #000000;
-    font-family: "Josefin Sans";
-    font-size: 14px;
-    font-weight: 600;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 40px;
-    text-align: left;
-    color: #555555;
-    font-style: normal;
-    letter-spacing: 0.35px;
-    line-height: normal;
-    transform: skew(-7deg);
-    word-spacing: 10px;
-    position: absolute;
-    top: 161px;
-    left: 33px;
 }
 .calendar {
     margin-top: 15px;
@@ -2080,15 +2056,15 @@ body {
     text-align: left;
     letter-spacing: 0.3px;
     transform: skew(-7deg);
-    margin-left: 4px;
-    margin-top: 4px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 .btlogin {
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
-    margin-left: 112px;
-    margin-bottom: 22px;
+    margin-left: 110px;
+    margin-bottom: 20px;
     background-color: #ffffff;
     color: #000000;
     font-family: "Josefin Sans";
@@ -2106,7 +2082,7 @@ body {
     height: 28px;
     border: 1px solid #c2c2c2;
     margin-top: 10px;
-    margin-left: 113px;
+    margin-left: 115px;
     margin-bottom: 20px;
     background-color: #ffffff;
     color: #000000;
@@ -2145,8 +2121,8 @@ button:hover {
 }
 .flex1 {
     display: flex; 
-    margin-left: 32px; 
-    margin-bottom: 33px;  
+    margin-left: 30px; 
+    margin-bottom: 30px;  
 }
 .facebook {
     width: 12px;
@@ -2162,7 +2138,7 @@ button:hover {
     letter-spacing: 0.3px;
 }
 .log {
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 .facebook2 {
@@ -2193,13 +2169,13 @@ button:hover {
 .social {
     display: flex;
     margin-left: 135px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .a2 {
-    margin-left: 22px;
+    margin-left: 20px;
 }
 .a3 {
-    margin-left: 22px; 
+    margin-left: 20px; 
 }
 .g2 {
     width: 29px;
@@ -2235,7 +2211,7 @@ button:hover {
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     margin-left: 85px;
-    padding-top: 18px;
+    padding-top: 20px;
 }
 .text14-1 {
     width: 145px;
@@ -2251,15 +2227,15 @@ button:hover {
     font-style: normal;
     letter-spacing: 0.1px;
     line-height: normal;
-    margin-left: 29px;
+    margin-left: 30px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    margin-top: 23px;
-    margin-left: 32px;
-    margin-bottom: 16px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 15px;
 }
 .usname {
     width: 265px;
@@ -2315,7 +2291,7 @@ button:hover {
 .flexspan {
     display: flex;
     flex-direction: column;
-    margin-left: 37px;
+    margin-left: 35px;
 }
 .text14-6 {
     width: 200px;
