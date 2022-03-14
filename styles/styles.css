@@ -1960,13 +1960,14 @@ body {
 .authorization {
     margin-top: 1230px;
     display: flex;
+    justify-content: center;
+    column-gap: 85px;
 }
 .block13 {
     width: 328px;
     height: 406px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    margin-left: 340px;
     padding-top: 20px;
 }
 .text13-1 {
@@ -2209,7 +2210,6 @@ button:hover {
     height: 535px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    margin-left: 85px;
     padding-top: 20px;
 }
 .text14-1 {
