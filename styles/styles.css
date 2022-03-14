@@ -1919,7 +1919,7 @@ body {
     font-style: normal;
     letter-spacing: 0.45px;
     line-height: normal;
-    margin-left: 67px;
+    margin-left: 65px;
 }
 .text12-4 {
     width: 222px;
@@ -1939,7 +1939,7 @@ body {
 }
 .calendar {
     margin-top: 15px;
-    margin-left: 36px;
+    margin-left: 35px;
     display: grid;
     grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3%;
     grid-template-rows: 34px 34px 34px 34px 34px;
@@ -1983,7 +1983,6 @@ body {
     font-style: normal;
     letter-spacing: 0.1px;
     line-height: normal;
-    
     margin-left: 30px;
 }
 .login {
@@ -2021,11 +2020,11 @@ body {
     position: absolute;
 }
 .login::placeholder {
-    top: 14px;
-    left: 18px;
+    top: 15px;
+    left: 20px;
 }
 .password::placeholder {
-    top: 12px;
+    top: 15px;
     left: 20px;
 }
 .password {
@@ -2245,7 +2244,7 @@ button:hover {
     margin-top: 15px;
 }
 .usname::placeholder {
-    top: 14px;
+    top: 15px;
     left: 20px;
 }
 .password2 {
@@ -2256,7 +2255,7 @@ button:hover {
     margin-top: 15px;
 }
 .password2::placeholder {
-    top: 14px;
+    top: 15px;
     left: 20px;
 }
 .rppassword {
@@ -2267,7 +2266,7 @@ button:hover {
     margin-top: 15px;
 }
 .rppassword::placeholder {
-    top: 14px;
+    top: 15px;
     left: 20px;
 }
 .text14-5 {
@@ -2286,7 +2285,7 @@ button:hover {
     transform: skew(-7deg);
 }
 .l {
-    margin-bottom: 27px;
+    margin-bottom: 25px;
 }
 .flexspan {
     display: flex;
