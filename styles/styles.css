@@ -1754,6 +1754,8 @@ body {
     top: 2840px;
     left: 585px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .text {
     color: #000000;
@@ -1879,6 +1881,8 @@ body {
     top: 3050px;
     left: 585px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .text12-1 {
     width: 5px;
@@ -1968,6 +1972,8 @@ body {
     background-color: #ffffff;
     margin-left: 340px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .text13-1 {
     width: 145px;
@@ -2212,6 +2218,8 @@ button:hover {
     background-color: #ffffff;
     margin-left: 85px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .text14-1 {
     width: 145px;
