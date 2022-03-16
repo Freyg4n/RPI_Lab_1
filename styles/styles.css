@@ -1,7 +1,6 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 body {
     width: 1440px;
-    height: 5640px;
     background-color: #eaeaea;
 }
 /*=====================Header==================*/
@@ -2044,73 +2043,78 @@ button:hover {
 
 /* ===================PASHASASHSHASHA============= */
 /*------------------------block 15-----------------------*/
-.block15 {
-    width: 838px;
+.post_a_comment{
+    width:838px;
     height: 187px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    left: 280px;
-    top: 4175px;
-    position: absolute;
+    margin-top: 125px;
+    margin-left: 285px;
+    display: flex;
+    flex-direction: column;
 }
-.text15-1, .text16-1{       /*block16 - text1 */
-    color: #000000;
-    font-family: "Josefin Sans";
-    transform: skew(-7deg);
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: left;
-    left:40px;
-    top: 25px;
-    position: absolute;
+.top-content15{
+    margin-top: 25px;
+    display: flex;
 }
-.text15-2{
-    text-decoration: none;
+.text15-1{
     font-family: 'Josefin Sans';
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: normal;
-    color: #ffffff;
-    top:55%;
-    left:705px;
-    position: absolute;
+    font-weight: 350;
+    color: #000000;
+    transform: skew(-5deg);
+    margin-left: 40px;
+    position: relative;
 }
-.text15-2:hover{
-    color: rgb(187, 187, 187);
+.share15{
+    margin-top: 10px;
+    margin-left: 440px;
+    height: 20px;
+    display: flex;
+    gap: 15px;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #000000;
+    transform: skew(-5deg);
 }
-.Photo15-2{
-    top:65px;
-    left:40px;
-    opacity: 0.05;
-    position: absolute;
+.facebook15, .twitter15, .text15-4{
+    color:#000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.comment15{
+    width: 753px;
+    height: 89px;
+    background-color: #f7f7f7;
+    margin-top:15px;
+    margin-left:40px;
+    display: flex;
+    align-items: center;
 }
 .Photo15-1{
-    top:80px;
-    left:60px;
-    position: absolute;
+    width: 56px;
+    height: 56px;
+    margin-left: 20px;
 }
 .Input15-1{
     font-family: 'Josefin Sans', sans-serif;
     font-size:20px;
     height:36px;
     width:490px;
-    top:90px;
-    left:180px;
+    margin-left: 65px;
     border: 1px solid #c2c2c2;
-    position:absolute;
 }
 .btn15-4{
+    width: 87px;
+    height: 40px;
+    border: 1px solid #c2c2c2;
+    margin-left: 5px;
     font-family: 'Josefin Sans', sans-serif;
     font-size:16px;
-    top:90px;
-    left:680px;
-    position: absolute;
-    width:87px;
     font-weight: 300;
-    height:40px;
     text-decoration-color: #c2c2c2;
     color: #ffffff;
     background-color: #383737;
@@ -2120,173 +2124,123 @@ button:hover {
     color:#000000;
     cursor: pointer;
 }
-.text15-3, .text15-4, .text15-5{
-    font-family: 'Josefin Sans', sans-serif;
-    transform: skew(-7deg);
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 600;
-    letter-spacing: normal;
-    color: #000000;
-    position: absolute;
-}
-.text15-3{
-    left:645px;
-    top:35px;
-}
-.text15-4{
-    left:725px;
-    top:35px;
-}
-.text15-5{
-    left:740px;
-    top:35px;
-}
-/*-----------------------block 16-------------------------*/
-.block16{
+/*-------------------------------*/
+.block16 {
     width: 838px;
     height: 761px;
     background-color: #ffffff;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    top:4410px;
-    left:280px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 45px;
+    margin-left: 285px;
 }
 .block16-1, .block16-2, .block16-3, .block16-4{
-    position: absolute;
-    top:60px;
-    left:40px;
-    width: 745px;
+    width: 743px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
-}
-.text16-1{
-    top: 20px;
-}
-.Photo16-1{
-    position: absolute;
-    top:90px;
-    left:50px;
-}
-.Photo16-2{
-    position: absolute;
-    top:445px;
-    left:120px;
-}
-.Photo16-3{
-    position: absolute;
-    top:610px;
-    left:50px;
-}
-.Photo16-4{
-    position: absolute;
-    top:160px;
-    left:125px;
-}
-.text16-2, .text16-3, .text16-4, .text16-5, .text16-6, .text16-7, .text16-8, .date16-1 , .text16-9, .text16-10,
-.reply16-2, .reply16-3, .date16-2, .date16-3, .text16-11, .text16-12{
-    font-family: 'Josefin Sans';
-    line-height: 1.2;
-    position: absolute;
-    letter-spacing: normal;
-}
-.text16-2, .text16-9, .text16-10, .text16-11{
-    font-size: 16px;
-    font-weight: 300;
-    color: #000000;
-    top:85px;
-    left:130px;
-}
-.text16-3{
-    font-size: 16px;
-    font-weight: 700;
-    color: #000000;
-    top: 105px;
-    left:130px;
-}
-.text16-4, .reply16-2, .reply16-3{
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: underline;
-    color: #629494;
-    position: absolute;
-    top:105px;
-    left:305px;
-}
-.text16-5, .text16-6{
-    font-size: 16px;
-    font-weight: 300;
-    color: #000000;
-    top:385px;
-    left:125px;
-}
-.text16-6{
-    left:130px;
-    top: 675px;
-}
-.date16-1, .date16-2, .date16-3{
-    font-size: 12px;
-    font-weight: 700;
-    color: #629494;
-    top:130px;
-    left:130px;
-}
-.date16-2{
-    left:200px;
-    top:490px;
-}
-.date16-3{
-    top:650px;
+    margin-top: 10px;
+    margin-left: 40px;
 }
 .block16-2{
+    margin-left: 0px;
     width: 655px;
-    top:425px;
-    left:125px;
+    margin-top:20px;
 }
 .block16-3{
-    top:590px;
+    margin-top: 15px;
+    margin-left: 40px;
 }
 .block16-4{
-    top:705px;
+    margin-top: 15px;
 }
-.text16-7{
-    top:465px;
-    left:200px;
+.top-content16, .other-content16, .sub-content1, .sub-content2, .top-row16, .top-comment16, .smuck-reply1,
+.comment-img, .other-content16-2, .center-row16, .center-comment16, .smuck-reply2{
+    display: flex;
+}
+.top-content16, .top-comment16, .comment-img, .center-row16, .center-comment16{
+    flex-direction: column;
+}
+.other-content16{
+    margin-left:50px;
+    margin-top: 25px;
+}
+.sub-content1, .sub-content2{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.other-content16-2{
+    margin-top:20px;
+}
+.smuck-reply1, .smuck-reply2{
+    align-items: center;
+}
+.Photo16-1, .Photo16-2{
+    width: 56px;
+    height: 56px;
+}
+.Photo16-4{
+    width: 313px;
+    height: 208px;
+    margin-top: 15px;
+    position: relative;
+}
+.text16-2,.text16-3, .text16-5, .text16-6, .text16-7, .text16-8, .date16-1 , .text16-9, .text16-10, .reply16-1,
+.reply16-2, .reply16-3, .date16-2, .date16-3, .text16-11, .text16-12 ,.t456-1, .t456-2, .t456-3, .t15-1, .t15-2, .t15-3{
+    font-family: 'Josefin Sans';
+    line-height: 1.2;
+}
+.text16-1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Josefin Sans';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 350;
+    transform: skew(-7deg);
+    color: #000000;
+}
+.text16-2, .text16-9{
+    font-size: 16px;
+    font-weight: 350;
+    color: #000000;
+}
+.text16-3,.text16-8 {
+    font-size: 16px;
     font-weight: 700;
+    color: #000000;
 }
-.text16-8{
-    top:625px;
-    left:130px;
-    font-weight: 700;
-}
-.text16-9{
-    left:200px;
-    top:445px;
-}
-.text16-10{
-    top:605px;
-}
-.reply16-2{
-    top:465px;
-    left:375px;
-}
-.reply16-3{
-    top:625px;
+.text16-5{
+    font-weight: 350;
+    margin-top: 15px;
 }
 .text16-11{
-    top:515px;
-    left:200px;
-    font-weight: 600;
+    margin-top: 10px;
 }
 .text16-12{
-    color: black;
     opacity: 0.5;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 300;
-    left:400px;
-    top:555px;
+    text-align: center;
+    margin-top:25px;
+    margin-left: 190px;
+    width: 128px;
+}
+.text16-12:hover{
+    cursor: pointer;
+    color: #CE242B;
+    text-decoration: underline;
+    opacity: 1;
+}
+.reply16-1, .reply16-2, .reply16-3, .date16-1, .date16-2, .date16-3 {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #629494;
+}
+.date16-1, .date16-2, .date16-3 {
+    text-decoration: none;
+    margin-top: 7px;
 }
 .t456-1, .t456-2, .t456-3{
     opacity: 0.8;
@@ -2294,129 +2248,114 @@ button:hover {
     font-size: 12px;
     line-height: 1.5;
     font-weight: 700;
-    letter-spacing: normal;
-    left:700px;
-    position: absolute;
 }
-.t456-1, .t15-1{
-    top:110px;
+.reply16-1, .reply16-2, .reply16-3{
+    margin-left: 10px;
 }
-.t456-2, .t15-2{
-    top:470px;
+.top-likes16, .bottom-likes16{
+    margin-left: 375px;
+    gap:5px;
 }
-.t456-3, .t15-3{
-    top:635px;
+.center-likes16{
+    gap: 5px;
+    margin-left: 295px;
 }
-.t15-1, .t15-2, .t15-3{
-    position: absolute;
+.t15-1, .t15-2,.t15-3{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
     letter-spacing: normal;
     color: #555555;
-    left:750px;
 }
-.share16-1, .share16-2, .share16-3{
-    position: absolute;
-    left: 725px;
-    cursor: pointer;
-}
-.share16-1, .like16-1{ top: 110px; }
-.share16-2, .like16-2{ top: 470px; }
-.share16-3, .like16-3{ top: 635px; }
-
-.like16-1, .like16-2, .like16-3{
-    position: absolute;
-    width:15px;
-    height:15px;
-    left: 765px;
-    cursor: pointer;
+.bottom-content16{
+    margin-left:45px;
+    display: flex;
+    margin-top: 15px;
 }
 .ellipse16{
     width: 54px;
     height: 54px;
-    position: absolute;
-    left:375px;
-    top:165px;
     background-color: #ffffff;
     border-radius: 50%;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.pintlink16{
+    z-index: 1;
+    position: absolute;
+    float:right;
+    margin-top: 40px;
 }
 .pinterest16{
     font-size: 32px;
     line-height: 1.2;
     font-weight: 400;
     color: #555555;
-    position: absolute;
-    top:10px;
-    left:20%;
+    margin-left: 262px;
 }
 .pinterest16:hover{
-    opacity:1;
     color: rgb(0, 0, 0);
 }
-/*-----------------------block 17--------------------------*/
+.share16-1:hover, .share16-2:hover, .like16-:hover, .like16-2:hover{
+    cursor: pointer;
+}
+/*-------------------------------*/
 .block17{
     width: 838px;
     height: 92px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    top: 5215px;
-    left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 285px;
+    margin-top: 45px;
 }
-.text17-arrowleft, .text17-arrowright, .text17-1, .text17-2, .text17-3, .text17-4, .text17-5, .text17-6{
+.navigation_bar{
+    display: flex;
     font-family: 'Josefin Sans';
     font-size: 18px;
     line-height: 1.2;
     font-weight: 300;
     letter-spacing: normal;
-    top: 40%;
     color: #000000;
-    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
 }
-.text17-arrowleft{
-    left: 270px;
-}
-.text17-1{
-    left: 310px;
+.text17-1, .text17-3, .text17-4, .text17-5, .text17-6, .text17-7, .text17-arrowright, .text17-arrowleft{
+    color: #000000;
 }
 .text17-2{
-    left: 350px;
     color: #629494;
 }
-.text17-3{
-    left: 390px;
-}
-.text17-4{
-    left: 430px;
-}
-.text17-5{
-    left: 470px;
-}
-.text17-6{
-    left: 510px;
-}
-.text17-arrowright{
-    left: 550px;
-}
-/*------------------------block 18-----------------------*/
-.block18{
+/*footer*/
+.footer{
+    margin-top: 150px;
+    margin-left: 150px;
     width: 1120px;
     height: 180px;
     opacity: 0.8;
     background-color: #000000;
     box-shadow: 0px 3px 7px 0px rgba(11,12,12,0.14);
-    position: absolute;
-    top: 5460px;
-    left:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer_content{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
 }
 .Logo_black{
-    position: absolute;
-    top: 40%;
-    left: 85px;
+    width: 87px;
+    height: 36px;
+    padding-left: 95px;
 }
-.text18-1, .text18-2, .text18-3, .text18-4, .text18-5, .text18-6{
+.nav_links_footer, .Text18_1{
+    list-style: none;
     opacity: 0.5;
     font-family: 'Josefin Sans';
     font-size: 12px;
@@ -2424,78 +2363,43 @@ button:hover {
     font-weight: 300;
     letter-spacing: normal;
     color: #fefefe;
-    top:85px;
-    position: absolute;
 }
-.text18-1{
-    left:285px;
+.nav_links_footer{
+    padding-left: 100px;
 }
-.text18-1:hover{
+.Text18_1{
+    padding-left: 80px;
+}
+.nav_links_footer li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav_links_footer li a{
+    height: 14px;
+    color: #fefefe;
+    font-family: "Josefin Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav_links_footer li a:hover{
+    text-decoration: underline;
     opacity:1;
-    color: rgb(236, 236, 236);
+    color: #ffffff;
 }
-.text18-2{
-    left:345px;
-}
-.text18-2:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.text18-3{
-    left:415px;
-}
-.text18-3:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.text18-4{
-    left:545px;
-}
-.text18-4:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.text18-5{
-    left:610px;
-}
-.text18-5:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.text18-6{
-    left:835px;
+.links18{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
 .google18, .twitter18, .facebook18, .pinterest18 {
-    top:110px;
-    position: absolute;
     color: #fefefe;
     opacity: 0.3;
 }
-.google18{
-    left:970px;
-}
-.google18:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.twitter18{
-    left:1005px;
-}
-.twitter18:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.facebook18{
-    left:1035px;
-}
-.facebook18:hover{
-    opacity:1;
-    color: rgb(236, 236, 236);
-}
-.pinterest18{
-    left:1055px;
-}
-.pinterest18:hover{
+.google18:hover, .pinterest18:hover, .facebook18:hover, .twitter18:hover{
     opacity:1;
     color: rgb(236, 236, 236);
 }
