@@ -1754,6 +1754,8 @@ body {
     top: 2840px;
     left: 585px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .text {
     color: #000000;
@@ -1879,6 +1881,8 @@ body {
     top: 3050px;
     left: 585px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 .text12-1 {
     width: 5px;
@@ -1969,6 +1973,8 @@ body {
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .text13-1 {
     width: 145px;
@@ -2211,6 +2217,8 @@ button:hover {
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .text14-1 {
     width: 145px;
