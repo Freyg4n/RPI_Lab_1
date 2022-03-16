@@ -706,14 +706,28 @@ body {
     text-align: left;
 }
 /* ====================IVAN PART============== */
+.blocks6-12{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.blocks7_11_12, .blocks6_9, .blocks8_10{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.blocks7_11_12{
+    margin-left: 95px;
+}
+.blocks8_10{
+    margin-left: 60px;
+}
 .block6{
     width: 289px;
     height: 349px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    left: 200px;
-    top: 2365px;
 }
 .text6-1{
     font-family: 'Playfair Display';
@@ -722,14 +736,9 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
-    position: absolute;
-    top: 30px;
-    left: 45px;
+
 }
 .photo6-1{
-    position: absolute;
-    left: 25px;
-    top: 70px;
     width: 58px;
     height: 58px;
     background-color: #ffffff;
@@ -739,9 +748,6 @@ body {
     width: 252px;
     height: 2px;
     opacity: 0.2;
-    position: absolute;
-    left: 15px;
-    top: 60px;
 }
 .text6-2{
     font-family: 'Josefin Sans';
@@ -750,10 +756,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 100px;
-    top: 80px;
-
 }
 .text6-3{
     font-family: 'Josefin Sans';
@@ -762,9 +764,6 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 100px;
-    top: 100px;
 }
 .text6-4{
     font-family: 'Font Awesome';
@@ -773,9 +772,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 100px;
-    top: 120px;
 }
 .text6-5{
     font-family: 'Open Sans';
@@ -784,9 +780,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 115px;
-    top: 120px;
 }
 .text6-6{
     font-family: 'Font Awesome';
@@ -795,9 +788,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 165px;
-    top: 120px;
 }
 .text6-7{
     font-family: 'Open Sans';
@@ -806,9 +796,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 180px;
-    top: 120px;
 }
 .text6-8{
     font-family: 'Font Awesome';
@@ -817,9 +804,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 190px;
-    top: 120px;
 }
 .text6-9{
     font-family: 'Open Sans';
@@ -828,55 +812,29 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left: 205px;
-    top: 120px;
 }
 .line6-2{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
-    position: absolute;
-    left: 160px;
-    top: 120px;
     opacity: 0.5;
 }
 .photo6-2{
     width: 289px;
     height: 204px;
     background-color: #ffffff;
-
-    position: absolute;
-    top: 145px;
 }
 .dot6-1, .dot6-2, .dot6-4, .dot6-5 {
     width: 8px;
     height: 8px;
     background-color: #ffffff;
     border-radius: 50%;
-    top: 330px;
-    position: absolute;
 }
 .dot6-3{
     width: 8px;
     height: 8px;
     background-color: #555555;
     border-radius: 50%;
-    top: 330px;
-    left: 145px;
-    position: absolute;
-}
-.dot6-1{
-    left:115px;
-}
-.dot6-2{
-    left:130px;
-}
-.dot6-4{
-    left:160px;
-}
-.dot6-5{
-    left:175px;
 }
 .dot6-1:hover,.dot6-2:hover,.dot6-3:hover,.dot6-4:hover,.dot6-5:hover{
     cursor: pointer;
@@ -887,9 +845,7 @@ body {
     height: 427px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    left: 585px;
-    top: 2365px;
+
 }
 .text7-1{
     font-family: 'Josefin Sans';
@@ -899,19 +855,12 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 15px;
-    top: 30px;
-
 }
 .line7-1{
     width: 252px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
-    position: absolute;
-    left: 15px;
-    top:   55px;
 }
 .text7-2{
     font-family: 'Josefin Sans';
@@ -921,9 +870,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top: 70px;
-    left: 50px;
 }
 .text7-3{
     opacity: 0.8;
@@ -934,9 +880,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top: 70px;
-    left: 115px
 }
 .text7-4{
     opacity: 0.8;
@@ -947,9 +890,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top: 70px;
-    left: 190px
 }
 .text7-2:hover, .text7-3:hover, .text7-4:hover{
     text-decoration: underline;
@@ -959,33 +899,21 @@ body {
     width: 49px;
     height: 45px;
     background-color: #8e2e2e;
-    position: absolute;
-    left: 20px;
-    top:110px;
 }
 .photo7-2{
     width: 49px;
     height: 45px;
     background-color: #8e2e2e;
-    position: absolute;
-    left: 20px;
-    top:210px;
 }
 .photo7-3{
     width: 49px;
     height: 45px;
     background-color: #8e2e2e;
-    position: absolute;
-    left: 20px;
-    top:300px;
 }
 .viewbutton{
     font-family: 'Josefin Sans';
     font-size:12px;
     line-height: 1.2;
-    top:380px;
-    left:165px;
-    position: absolute;
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
@@ -1005,9 +933,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top:110px;
-    left: 85px;
 }
 .text7-6{
     font-family: 'Josefin Sans';
@@ -1016,9 +941,6 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left:100px;
-    top:110px;
 }
 .text7-7{
     font-family: 'Josefin Sans';
@@ -1027,10 +949,6 @@ body {
     font-weight: 600;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 85px;
-    right:15px;
-    top:130px;
 }
 .text7-8{
     font-family: 'Josefin Sans';
@@ -1039,9 +957,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top:210px;
-    left: 85px;
 }
 .text7-9{
     font-family: 'Josefin Sans';
@@ -1050,9 +965,6 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left:100px;
-    top:210px;
 }
 .text7-10{
     font-family: 'Josefin Sans';
@@ -1061,10 +973,6 @@ body {
     font-weight: 600;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 85px;
-    right:30px;
-    top:230px;
 }
 .text7-11{
     font-family: 'Josefin Sans';
@@ -1073,9 +981,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    top:300px;
-    left: 85px;
 }
 .text7-12{
     font-family: 'Josefin Sans';
@@ -1084,9 +989,6 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left:100px;
-    top:300px;
 }
 .text7-13{
     font-family: 'Josefin Sans';
@@ -1095,10 +997,6 @@ body {
     font-weight: 600;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 85px;
-    right:30px;
-    top:320px;
 }
 .icons7-1{
     font-family: 'Font Awesome';
@@ -1107,9 +1005,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 35px;
-    right: 110px;
 }
 .icons7-2{
     font-family: 'Font Awesome';
@@ -1117,10 +1012,7 @@ body {
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #555555;
-    position: absolute;
-    top: 35px;
-    right: 80px;
+    color: #555555;=
 }
 .icons7-3{
     font-family: 'Font Awesome';
@@ -1129,9 +1021,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 35px;
-    right: 55px;
 }
 .icons7-4{
     font-family: 'Font Awesome';
@@ -1140,17 +1029,12 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 35px;
-    right: 25px;
 }
 /*----------------------------------------------------------*/
 .block8{
     width: 290px;
     height: 349px;
-    position: absolute;
-    left: 935px;
-    top: 2365px;
+    background-image: url(../styles/images/Ivan/cofe.png);
 }
 .photo8-1{
     width: 290px;
@@ -1164,9 +1048,6 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #921026;
-    position: absolute;
-    left: 20px;
-    top: 25px;
 }
 .text8-2{
     font-family: 'Josefin Sans';
@@ -1175,10 +1056,6 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 20px;
-    top: 95px;
-
 }
 .text8-3{
 
@@ -1189,9 +1066,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #222222;
-    position: absolute;
-    left: 20px;
-    top: 130px;
     width: 250px;
 
 }
@@ -1202,9 +1076,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:130px;
-    top:205px;
 }
 .text8-5{
     font-family: 'Open Sans';
@@ -1213,9 +1084,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:145px;
-    top:205px;
 }
 .text8-6{
     font-family: 'Font Awesome';
@@ -1224,9 +1092,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:190px;
-    top:205px;
 }
 .text8-7{
     font-family: 'Open Sans';
@@ -1235,9 +1100,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:205px;
-    top:205px;
 }
 .text8-8{
     font-family: 'Font Awesome';
@@ -1246,9 +1108,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:230px;
-    top:205px;
 }
 .text8-9{
     font-family: 'Open Sans';
@@ -1257,25 +1116,16 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:245px;
-    top:205px;
 }
 .line8-1{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
-    position: absolute;
-    left:185px;
-    top:205px;
 }
 .viewbutton8-1{
     font-family: 'Josefin Sans';
     font-size:12px;
     line-height: 1.2;
-    top:200px;
-    left:20px;
-    position: absolute;
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
@@ -1294,9 +1144,7 @@ body {
     height: 471px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    left:200px;
-    top:2760px;
+
 }
 .text9-1{
     font-family: 'Josefin Sans';
@@ -1306,18 +1154,12 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left:15px;
-    top:35px;
 }
 .line9-1{
     width: 251px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
-    position: absolute;
-    left:15px;
-    top:65px;
 }
 .text9-2{
     font-family: 'Playfair Display';
@@ -1326,9 +1168,6 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
-    position: absolute;
-    left:30px;
-    top:85px;
 }
 .text9-3{
     font-family: 'Josefin Sans';
@@ -1337,9 +1176,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:105px;
-    top:145px;
 }
 .text9-4{
     opacity: 0.5;
@@ -1350,10 +1186,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 105px;
-    top:165px;
-    right: 40px;
 }
 .text9-5{
     font-family: 'Josefin Sans';
@@ -1362,9 +1194,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:105px;
-    top:250px;
 }
 .text9-6{
     opacity: 0.5;
@@ -1375,10 +1204,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 105px;
-    top:275px;
-    right: 30px;
 }
 .text9-7{
     font-family: 'Josefin Sans';
@@ -1387,9 +1212,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    left:105px;
-    top:365px;
 }
 .text9-8{
     opacity: 0.5;
@@ -1400,58 +1222,36 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 105px;
-    top:385px;
-    right: 50px;
 }
 .img9-1{
     width: 58px;
     height: 59px;
     background-color: #b7b7b7;
-    position: absolute;
-    left:25px;
-    top:145px;
 }
 .img9-2{
     width: 58px;
     height: 59px;
     background-color: #b7b7b7;
-    position: absolute;
-    left:25px;
-    top:250px;
 }
 .img9-3{
     width: 58px;
     height: 59px;
     background-color: #b7b7b7;
-    position: absolute;
-    left:25px;
-    top:355px;
 }
 .img9-4{
     width: 30px;
     height: 55px;
     background-color: #b50051;
-    position: absolute;
-    left: 53px;
-    top: 149px;
 }
 .img9-5{
     width: 53px;
     height: 59px;
     background-color: #055454;
-    position: absolute;
-    left:30px;
-    top:250px;
 }
 .img9-6{
     width: 58px;
     height: 29px;
     background-color: #87d0c5;
-    position: absolute;
-    top:385px;
-    left: 25px;
 }
 .text9-9{
     font-family: 'Josefin Sans';
@@ -1460,9 +1260,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #959595;
-    position: absolute;
-    left:37px;
-    top:162px;
 }
 .text9-10{
     font-family: 'Josefin Sans';
@@ -1471,9 +1268,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #959595;
-    position: absolute;
-    left:36px;
-    top:269px;
 }
 .text9-11{
     font-family: 'Josefin Sans';
@@ -1482,9 +1276,6 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #959595;
-    position: absolute;
-    left:36px;
-    top:375px;
 }
 
 .icons9-1{
@@ -1494,9 +1285,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 107px;
 }
 .icons9-2{
     font-family: 'Font Awesome';
@@ -1505,9 +1293,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 77px;
 }
 .icons9-3{
     font-family: 'Font Awesome';
@@ -1516,9 +1301,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 52px;
 }
 .icons9-4{
     font-family: 'Font Awesome';
@@ -1527,9 +1309,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 22px;
 }
 /*--------------------------------------------------*/
 .block10 {
@@ -1537,9 +1316,6 @@ body {
     height: 430px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    position: absolute;
-    left:935px;
-    top:2760px;
 }
 .text10-1{
     font-family: 'Josefin Sans';
@@ -1549,9 +1325,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #000000;
-    position: absolute;
-    left: 20px;
-    top:35px;
 }
 .icons10-1{
     font-family: 'Font Awesome';
@@ -1560,9 +1333,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 120px;
 }
 .icons10-2{
     font-family: 'Font Awesome';
@@ -1571,9 +1341,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 90px;
 }
 .icons10-3{
     font-family: 'Font Awesome';
@@ -1582,9 +1349,6 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 65px;
 }
 .icons10-4{
     font-family: 'Font Awesome';
@@ -1593,18 +1357,12 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #555555;
-    position: absolute;
-    top: 40px;
-    right: 35px;
 }
 .line10-1{
     width: 251px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
-    position: absolute;
-    top:65px;
-    left:15px;
 }
 .text10-2{
     font-family: 'Playfair Display';
@@ -1613,9 +1371,6 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
-    position: absolute;
-    left:30px;
-    top:85px;
 }
 .text10-3{
     font-family: 'Josefin Sans';
@@ -1624,34 +1379,21 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #6a6a6a;
-    position: absolute;
-    left:50px;
-    top:340px;
-    right:30px;
 }
 .line10-2{
     width: 9px;
     height: 68px;
     background-color: #87d0c5;
-    position: absolute;
-    left:70px;
-    bottom: 125px;
 }
 .line10-3{
     width: 10px;
     height: 99px;
     background-color: #0d5959;
-    position: absolute;
-    left:155px;
-    bottom: 125px;
 }
 .line10-4{
     width: 9px;
     height: 131px;
     background-color: #b50051;
-    position: absolute;
-    left:245px;
-    bottom: 125px;
 }
 .text10-4{
     opacity: 0.8;
@@ -1663,9 +1405,6 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:50px;
-    bottom: 125px;
 }
 .text10-5{
     opacity: 0.8;
@@ -1677,9 +1416,6 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:135px;
-    bottom: 125px;
 }
 .text10-6{
     opacity: 0.8;
@@ -1691,9 +1427,6 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:225px;
-    bottom: 125px;
 }
 .text10-7{
     font-family: 'Open Sans';
@@ -1704,9 +1437,6 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:67px;
-    top:185px;
 }
 .text10-8{
     font-family: 'Open Sans';
@@ -1717,9 +1447,6 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:152px;
-    top:155px;
 }
 .text10-9{
     font-family: 'Open Sans';
@@ -1730,18 +1457,12 @@ body {
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
-    position: absolute;
-    left:242px;
-    top:120px;
 }
 .line10-5{
     width: 205px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
-    position: absolute;
-    left:50px;
-    bottom:105px;
 }
 /* ======================ARTYOM===============*/
 
@@ -1750,9 +1471,6 @@ body {
     height: 160px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    position: absolute;
-    top: 2840px;
-    left: 585px;
     padding-top: 25px;
     display: flex;
     flex-direction: column;
@@ -1877,9 +1595,6 @@ body {
     height: 367px;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
-    position: absolute;
-    top: 3050px;
-    left: 585px;
     padding-top: 25px;
     display: flex;
     flex-direction: column;
@@ -1962,7 +1677,7 @@ body {
     color: #000000;
 }
 .authorization {
-    margin-top: 1230px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     column-gap: 85px;
