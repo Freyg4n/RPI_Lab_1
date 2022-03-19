@@ -762,7 +762,6 @@ body {
 .stats6-1{
     display: flex;
     justify-content: flex-start;
-    flex-wrap: wrap;
     gap: 5px;
 }
 .photo6-1{
@@ -1175,7 +1174,14 @@ body {
     height: 471px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-
+    display: flex;
+    flex-direction: column;
+}
+.top-part9{
+    display: flex;
+    flex-direction: row;
+    margin: 35px 20px 10px;
+    justify-content: space-between;
 }
 .text9-1{
     font-family: 'Josefin Sans';
@@ -1186,11 +1192,49 @@ body {
     letter-spacing: 0.025em;
     color: #000000;
 }
+.social-print{
+    display: flex;
+    width: 105px;
+    justify-content: space-between;
+}
+.icons9-1{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
+.icons9-2{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
+.icons9-3{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
+.icons9-4{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
 .line9-1{
     width: 251px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
+    align-self: center;
 }
 .text9-2{
     font-family: 'Playfair Display';
@@ -1199,6 +1243,18 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
+    margin: 20px 30px;
+
+}
+.content6{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.procents6-1{
+
+    background-image:   url(../styles/images/Ivan/white1.jpg),
+                        url(../styles/images/Ivan/red1.jpg);
 }
 .text9-3{
     font-family: 'Josefin Sans';
@@ -1309,38 +1365,7 @@ body {
     color: #959595;
 }
 
-.icons9-1{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons9-2{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons9-3{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons9-4{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
+
 /*--------------------------------------------------*/
 .block10 {
     width: 290px;
