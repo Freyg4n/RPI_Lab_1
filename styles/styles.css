@@ -147,7 +147,7 @@ body {
 }
 .dot-nav-1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     width: 70px;
 }
@@ -727,6 +727,9 @@ body {
     height: 349px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .text6-1{
     font-family: 'Playfair Display';
@@ -735,7 +738,32 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
+    margin-top: 25px;
+}
+.line6-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    margin-top: 15px;
+}
 
+.articul-info{
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.right-panel6-1{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.stats6-1{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .photo6-1{
     width: 58px;
@@ -743,11 +771,7 @@ body {
     background-color: #ffffff;
     border: 1px solid #ffffff;
 }
-.line6-1{
-    width: 252px;
-    height: 2px;
-    opacity: 0.2;
-}
+
 .text6-2{
     font-family: 'Josefin Sans';
     font-size: 16px;
@@ -758,10 +782,10 @@ body {
 }
 .text6-3{
     font-family: 'Josefin Sans';
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.015em;
     color: #000000;
 }
 .text6-4{
@@ -818,24 +842,32 @@ body {
     background-color: #6f6f6f;
     opacity: 0.5;
 }
-.photo6-2{
+.photo-galery{
     width: 289px;
     height: 204px;
-    background-color: #ffffff;
+    background-image: url(../styles/images/Ivan/food.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
 }
-.dot6-1, .dot6-2, .dot6-4, .dot6-5 {
+.dot-nav-6-1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 70px;
+    margin-bottom: 10px;
+}
+.dot6{
     width: 8px;
     height: 8px;
     background-color: #ffffff;
     border-radius: 50%;
 }
-.dot6-3{
-    width: 8px;
-    height: 8px;
+.selected-dot{
     background-color: #555555;
-    border-radius: 50%;
 }
-.dot6-1:hover,.dot6-2:hover,.dot6-3:hover,.dot6-4:hover,.dot6-5:hover{
+.dot6:hover{
     cursor: pointer;
 }
 /*--------------------------*/
@@ -1011,7 +1043,7 @@ body {
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 0.025em;
-    color: #555555;=
+    color: #555555;
 }
 .icons7-3{
     font-family: 'Font Awesome';
