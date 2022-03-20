@@ -733,7 +733,6 @@ body {
     font-size: 12px;
     line-height: 1.2;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #555555;
 }
 .icon-text{
@@ -741,7 +740,6 @@ body {
     font-size: 12px;
     line-height: 1.2;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #555555;
 }
 .stats-line{
@@ -760,8 +758,26 @@ body {
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #555555;
+}
+.icons6_10:hover{
+    color: #000000;
+}
+.top-part-text{
+    font-family: 'Josefin Sans';
+    transform:skew(-7deg);
+    font-size: 20px;
+    line-height: 0.8;
+    font-weight: 400;
+    color: #000000;
+}
+.green-text{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #055555;
+    margin: 20px 30px 0px;
 }
 /*-----------------------*/
 .block6{
@@ -777,7 +793,6 @@ body {
     font-size: 22px;
     line-height: 1.2;
     font-weight: 900;
-    letter-spacing: 0.025em;
     color: #055555;
     margin-top: 25px;
     align-self: center;
@@ -812,7 +827,6 @@ body {
     font-size: 16px;
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: 0.025em;
     color: #000000;
 }
 .text6-3{
@@ -820,7 +834,6 @@ body {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 0.015em;
     color: #000000;
 }
 .photo-galery{
@@ -889,7 +902,6 @@ body {
     line-height: 1.2;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.025em;
     color: #000000;
 }
 .selected-diff-text{
@@ -902,9 +914,7 @@ body {
 .content7{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 15px;
+    margin: 30px 20px 0px 20px;
     gap:35px;
 }
 .content7-1{
@@ -929,7 +939,6 @@ body {
 .text7{
     font-family: 'Josefin Sans';
     line-height: 1.2;
-    letter-spacing: 0.025em;
     color: #000000;
 }
 .text7-by{
@@ -947,7 +956,6 @@ body {
 .viewbutton{
     font-family: 'Josefin Sans';
     font-size:12px;
-    line-height: 1.2;
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
@@ -970,12 +978,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-.text8-1{
+.text8-red{
     font-family: 'Playfair Display';
     font-size: 32px;
     line-height: 1.2;
     font-weight: 900;
-    letter-spacing: 0.025em;
     color: #921026;
     margin: 25px 20px 10px;
 }
@@ -985,22 +992,20 @@ body {
     background-color: #ffffff;
     align-self: center;
 }
-.text8-2{
+.text8-big{
     font-family: 'Josefin Sans';
     font-size: 22px;
     line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 0.025em;
     color: #000000;
     margin: 20px 20px 0px;
 }
-.text8-3{
+.text8-small{
     font-family: 'Josefin Sans';
     transform:skew(-7deg);
     font-size: 14px;
     line-height: 1.2;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #222222;
     margin: 15px 20px 0px;
 }
@@ -1016,7 +1021,6 @@ body {
 .viewbutton8-1{
     font-family: 'Josefin Sans';
     font-size:12px;
-    line-height: 1.2;
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
@@ -1045,24 +1049,6 @@ body {
     margin: 35px 20px 10px;
     justify-content: space-between;
     align-items: flex-end;
-}
-.top-part-text{
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
-    font-size: 20px;
-    line-height: 0.8;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.green-text{
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 900;
-    letter-spacing: 0.025em;
-    color: #055555;
-    margin: 20px 30px 0px;
 }
 .line9-1{
     width: 251px;
@@ -1103,7 +1089,6 @@ body {
     font-size: 21px;
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: 0.025em;
     position: absolute;
     align-self: center;
     margin-left: 13px;
@@ -1135,7 +1120,6 @@ body {
     font-family: 'Josefin Sans';
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: 0.025em;
     color: #555555;
 }
 .text9-big{
@@ -1191,12 +1175,11 @@ body {
 }
 .text10-bot{
     font-family: 'Josefin Sans';
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: 0.025em;
     color: #6a6a6a;
-    margin: 15px 40px 0px 50px;
+    margin: 15px 35px 0px 50px;
 }
 .line10-2{
     width: 9px;
@@ -1219,7 +1202,6 @@ body {
     font-size: 18px;
     line-height: 0.7;
     font-weight: 300;
-    letter-spacing: 0.025em;
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
@@ -1229,7 +1211,6 @@ body {
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: 0.025em;
     color: #555555;
     writing-mode: tb-rl;
     transform: rotate(-180deg);
