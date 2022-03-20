@@ -1173,7 +1173,6 @@ body {
     height: 55px;
     margin-left: 28px;
     margin-top: 4px;
-    background-color: #b50051;
 }
 .text9-9{
     font-family: 'Josefin Sans';
@@ -1196,7 +1195,6 @@ body {
     width: 53px;
     height: 59px;
     margin-left: 5px;
-    background-color: #055454;
 }
 .text9-10{
     font-family: 'Josefin Sans';
@@ -1218,7 +1216,6 @@ body {
 .img9-6{
     width: 58px;
     height: 29px;
-    background-color: #87d0c5;
     margin-top: 30px;
 }
 .text9-11{
@@ -1302,19 +1299,20 @@ body {
     background-color: #b7b7b7;
 }
 
-
-
-
-
-
-
-
 /*--------------------------------------------------*/
 .block10 {
     width: 290px;
     height: 430px;
     background-color: #ffffff;
     box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+.top-part10{
+    display: flex;
+    flex-direction: row;
+    margin: 35px 20px 10px;
+    justify-content: space-between;
 }
 .text10-1{
     font-family: 'Josefin Sans';
@@ -1325,43 +1323,12 @@ body {
     letter-spacing: 0.025em;
     color: #000000;
 }
-.icons10-1{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons10-2{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons10-3{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.icons10-4{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
 .line10-1{
     width: 251px;
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
+    margin-left: 20px;
 }
 .text10-2{
     font-family: 'Playfair Display';
@@ -1370,6 +1337,26 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #055555;
+    margin: 20px 30px;
+}
+.content10{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    align-items: flex-end;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.content10-1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.item10{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
 }
 .text10-3{
     font-family: 'Josefin Sans';
@@ -1378,6 +1365,7 @@ body {
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #6a6a6a;
+    margin: 15px 40px 0px 50px;
 }
 .line10-2{
     width: 9px;
@@ -1398,7 +1386,7 @@ body {
     opacity: 0.8;
     font-family: 'Josefin Sans';
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 0.7;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
@@ -1409,7 +1397,7 @@ body {
     opacity: 0.8;
     font-family: 'Josefin Sans';
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 0.7;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
@@ -1420,7 +1408,7 @@ body {
     opacity: 0.8;
     font-family: 'Josefin Sans';
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 0.7;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
@@ -1462,6 +1450,7 @@ body {
     height: 2px;
     opacity: 0.2;
     background-color: #555555;
+    margin-left: 50px;
 }
 /* ======================ARTYOM===============*/
 
