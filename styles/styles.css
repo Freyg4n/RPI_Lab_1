@@ -759,8 +759,9 @@ body {
     align-items:flex-start;
     justify-content: center;
 }
-.stats6-1{
+.stats-elem{
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     gap: 5px;
 }
@@ -787,7 +788,7 @@ body {
     letter-spacing: 0.015em;
     color: #000000;
 }
-.text6-4{
+.icon-elem{
     font-family: 'Font Awesome';
     font-size: 12px;
     line-height: 1.2;
@@ -795,23 +796,7 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
 }
-.text6-5{
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text6-6{
-    font-family: 'Font Awesome';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text6-7{
+.icon-text{
     font-family: 'Open Sans';
     font-size: 12px;
     line-height: 1.2;
@@ -819,23 +804,8 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
 }
-.text6-8{
-    font-family: 'Font Awesome';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text6-9{
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.line6-2{
+
+.stats-line{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
@@ -1057,11 +1027,8 @@ body {
     width: 290px;
     height: 349px;
     background-image: url(../styles/images/Ivan/cofe.png);
-}
-.photo8-1{
-    width: 290px;
-    height: 349px;
-    background-color: #988f8f;
+    display: flex;
+    flex-direction: column;
 }
 .text8-1{
     font-family: 'Playfair Display';
@@ -1070,6 +1037,13 @@ body {
     font-weight: 900;
     letter-spacing: 0.025em;
     color: #921026;
+    margin: 25px 20px 10px;
+}
+.line8-1{
+    width: 251px;
+    height: 2px;
+    background-color: #ffffff;
+    align-self: center;
 }
 .text8-2{
     font-family: 'Josefin Sans';
@@ -1078,9 +1052,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.025em;
     color: #000000;
+    margin: 20px 20px 0px;
 }
 .text8-3{
-
     font-family: 'Josefin Sans';
     transform:skew(-7deg);
     font-size: 14px;
@@ -1088,61 +1062,16 @@ body {
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #222222;
-    width: 250px;
+    margin: 15px 20px 0px;
+}
+.bot-part8{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px    ;
 
-}
-.text8-4{
-    font-family: 'Font Awesome';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text8-5{
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text8-6{
-    font-family: 'Font Awesome';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text8-7{
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text8-8{
-    font-family: 'Font Awesome';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text8-9{
-    font-family: 'Open Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.line8-1{
-    width: 1px;
-    height: 14px;
-    background-color: #6f6f6f;
 }
 .viewbutton8-1{
     font-family: 'Josefin Sans';
