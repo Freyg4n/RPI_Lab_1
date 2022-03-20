@@ -715,78 +715,18 @@ body {
     flex-direction: column;
     row-gap: 50px;
 }
-
 .blocks7_11_12{
     margin-left: 95px;
 }
 .blocks8_10{
     margin-left: 60px;
 }
-.block6{
-    width: 289px;
-    height: 349px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.text6-1{
-    font-family: 'Playfair Display';
-    font-size: 22px;
-    line-height: 1.2;
-    font-weight: 900;
-    letter-spacing: 0.025em;
-    color: #055555;
-    margin-top: 25px;
-}
-.line6-1{
-    width: 252px;
-    height: 2px;
-    opacity: 0.2;
-    margin-top: 15px;
-}
-
-.articul-info{
-    margin: 10px 25px;
-    display: flex;
-    flex-direction: row;
-}
-.right-panel6-1{
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content: center;
-}
+/*-----------------------*/
 .stats-elem{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 5px;
-}
-.photo6-1{
-    width: 58px;
-    height: 58px;
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.text6-2{
-    font-family: 'Josefin Sans';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text6-3{
-    font-family: 'Josefin Sans';
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: 0.015em;
-    color: #000000;
 }
 .icon-elem{
     font-family: 'Font Awesome';
@@ -804,12 +744,84 @@ body {
     letter-spacing: 0.025em;
     color: #555555;
 }
-
 .stats-line{
     width: 1px;
     height: 14px;
     background-color: #6f6f6f;
     opacity: 0.5;
+}
+.social-print{
+    display: flex;
+    width: 105px;
+    justify-content: space-between;
+}
+.icons6_10{
+    font-family: 'Font Awesome';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #555555;
+}
+/*-----------------------*/
+.block6{
+    width: 289px;
+    height: 349px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+}
+.text6-1{
+    font-family: 'Playfair Display';
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #055555;
+    margin-top: 25px;
+    align-self: center;
+}
+.line6-1{
+    width: 252px;
+    height: 2px;
+    opacity: 0.2;
+    margin-top: 15px;
+    align-self: center;
+}
+.articul-info{
+    margin: 10px 25px;
+    display: flex;
+    flex-direction: row;
+}
+.right-panel6-1{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.photo6-1{
+    width: 58px;
+    height: 58px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+.text6-2{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+.text6-3{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: #000000;
 }
 .photo-galery{
     width: 289px;
@@ -853,16 +865,8 @@ body {
     flex-direction: row;
     margin: 30px 25px 5px 15px;
     justify-content: space-between;
+    align-items: flex-end;
 
-}
-.text7-1{
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #000000;
 }
 .line7-1{
     width: 252px;
@@ -879,7 +883,7 @@ body {
     margin-left: 50px;
     margin-right: 70px;
 }
-.text7-2{
+.diff-text{
     font-family: 'Josefin Sans';
     font-size: 12px;
     line-height: 1.2;
@@ -888,10 +892,10 @@ body {
     letter-spacing: 0.025em;
     color: #000000;
 }
-.selected-text7-2{
+.selected-diff-text{
     font-weight: 700;
 }
-.text7-2:hover{
+.diff-text:hover{
     text-decoration: underline;
     color: #000000;
 }
@@ -901,7 +905,7 @@ body {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 15px;
-    gap:40px;
+    gap:35px;
 }
 .content7-1{
     display: flex;
@@ -909,17 +913,7 @@ body {
     align-items: flex-start;
     gap: 15px;
 }
-.photo7-1{
-    width: 49px;
-    height: 45px;
-    background-color: #8e2e2e;
-}
-.photo7-2{
-    width: 49px;
-    height: 45px;
-    background-color: #8e2e2e;
-}
-.photo7-3{
+.photo7{
     width: 49px;
     height: 45px;
     background-color: #8e2e2e;
@@ -930,78 +924,25 @@ body {
 }
 .author7{
     display: flex;
+    gap: 5px;
 }
-.text7-5{
+.text7{
     font-family: 'Josefin Sans';
-    font-size: 12px;
     line-height: 1.2;
+    letter-spacing: 0.025em;
+    color: #000000;
+}
+.text7-by{
+    font-size: 12px;
     font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
 }
-.text7-6{
-    font-family: 'Josefin Sans';
+.text7-name{
     font-size: 12px;
-    line-height: 1.2;
     font-weight: 700;
-    letter-spacing: 0.025em;
-    color: #000000;
 }
-.text7-7{
-    font-family: 'Josefin Sans';
+.text7-maintext{
     font-size: 15px;
-    line-height: 16px;
     font-weight: 600;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-8{
-    font-family: 'Josefin Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-9{
-    font-family: 'Josefin Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-10{
-    font-family: 'Josefin Sans';
-    font-size: 15px;
-    line-height: 16px;
-    font-weight: 600;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-11{
-    font-family: 'Josefin Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-12{
-    font-family: 'Josefin Sans';
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 700;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text7-13{
-    font-family: 'Josefin Sans';
-    font-size: 15px;
-    line-height: 16px;
-    font-weight: 600;
-    letter-spacing: 0.025em;
-    color: #000000;
 }
 .viewbutton{
     font-family: 'Josefin Sans';
@@ -1010,7 +951,7 @@ body {
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
-    font-weight: 300;
+    font-weight: 350;
     color: #010101;
     background-color: #ffffff;
     align-self: flex-end;
@@ -1021,7 +962,6 @@ body {
     color:#000000;
     cursor: pointer;
 }
-
 /*----------------------------------------------------------*/
 .block8{
     width: 290px;
@@ -1080,7 +1020,7 @@ body {
     width: 105px;
     height: 28px;
     border: 1px solid #c2c2c2;
-    font-weight: 300;
+    font-weight: 350;
     color: #010101;
     background-color: #ffffff;
 }
@@ -1089,6 +1029,7 @@ body {
     color:#000000;
     cursor: pointer;
 }
+
 /*---------------------------------------------------------*/
 .block9{
     width: 290px;
@@ -1103,37 +1044,18 @@ body {
     flex-direction: row;
     margin: 35px 20px 10px;
     justify-content: space-between;
+    align-items: flex-end;
 }
-.text9-1{
+.top-part-text{
     font-family: 'Josefin Sans';
     transform:skew(-7deg);
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 0.8;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #000000;
 }
-.social-print{
-    display: flex;
-    width: 105px;
-    justify-content: space-between;
-}
-.icons9-1{
-    font-family: 'Font Awesome';
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.line9-1{
-    width: 251px;
-    height: 2px;
-    opacity: 0.2;
-    background-color: #555555;
-    align-self: center;
-}
-.text9-2{
+.green-text{
     font-family: 'Playfair Display';
     font-size: 20px;
     line-height: 1.2;
@@ -1141,7 +1063,13 @@ body {
     letter-spacing: 0.025em;
     color: #055555;
     margin: 20px 30px 0px;
-
+}
+.line9-1{
+    width: 251px;
+    height: 2px;
+    opacity: 0.2;
+    background-color: #555555;
+    align-self: center;
 }
 .content9{
     display: flex;
@@ -1162,11 +1090,24 @@ body {
     flex-direction: row;
     gap: 25px;
 }
-.procents9-1{
+.procents9-1, .procents9-2, .procents9-3{
     width: 58px;
     height: 59px;
     display: flex;
+}
+.procents9-1{
     background-image:   url(../styles/images/Ivan/white1.jpg);
+}
+.procents9-text{
+    font-family: 'Josefin Sans';
+    font-size: 21px;
+    line-height: 1.2;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    position: absolute;
+    align-self: center;
+    margin-left: 13px;
+    color: #959595;
 }
 .img9-4{
     width: 30px;
@@ -1174,21 +1115,7 @@ body {
     margin-left: 28px;
     margin-top: 4px;
 }
-.text9-9{
-    font-family: 'Josefin Sans';
-    font-size: 21px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    position: absolute;
-    align-self: center;
-    margin-left: 13px;
-    color: #959595;
-}
 .procents9-2{
-    width: 58px;
-    height: 59px;
-    display: flex;
     background-image:   url(../styles/images/Ivan/white2.jpg);
 }
 .img9-5{
@@ -1196,21 +1123,7 @@ body {
     height: 59px;
     margin-left: 5px;
 }
-.text9-10{
-    font-family: 'Josefin Sans';
-    font-size: 21px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    position: absolute;
-    align-self: center;
-    margin-left: 13px;
-    color: #959595;
-}
 .procents9-3{
-    width: 58px;
-    height: 59px;
-    display: flex;
     background-image:   url(../styles/images/Ivan/white3.jpg);
 }
 .img9-6{
@@ -1218,87 +1131,23 @@ body {
     height: 29px;
     margin-top: 30px;
 }
-.text9-11{
+.text9{
     font-family: 'Josefin Sans';
-    font-size: 21px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    position: absolute;
-    align-self: center;
-    margin-left: 13px;
-    color: #959595;
-}
-.text9-3{
-    font-family: 'Josefin Sans';
-    font-size: 18px;
     line-height: 1.2;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #555555;
 }
-.text9-4{
-    opacity: 0.5;
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.text9-5{
-    font-family: 'Josefin Sans';
+.text9-big{
     font-size: 18px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
     color: #555555;
 }
-.text9-6{
+.text9-small{
     opacity: 0.5;
-    font-family: 'Josefin Sans';
     transform:skew(-7deg);
     font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
     color: #000000;
 }
-.text9-7{
-    font-family: 'Josefin Sans';
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-}
-.text9-8{
-    opacity: 0.5;
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #000000;
-}
-.img9-1{
-    width: 58px;
-    height: 59px;
-    background-color: #b7b7b7;
-}
-.img9-2{
-    width: 58px;
-    height: 59px;
-    background-color: #b7b7b7;
-}
-.img9-3{
-    width: 58px;
-    height: 59px;
-    background-color: #b7b7b7;
-}
-
 /*--------------------------------------------------*/
 .block10 {
     width: 290px;
@@ -1313,15 +1162,7 @@ body {
     flex-direction: row;
     margin: 35px 20px 10px;
     justify-content: space-between;
-}
-.text10-1{
-    font-family: 'Josefin Sans';
-    transform:skew(-7deg);
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 0.025em;
-    color: #000000;
+    align-items: flex-end;
 }
 .line10-1{
     width: 251px;
@@ -1330,22 +1171,12 @@ body {
     background-color: #555555;
     margin-left: 20px;
 }
-.text10-2{
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 900;
-    letter-spacing: 0.025em;
-    color: #055555;
-    margin: 20px 30px;
-}
 .content10{
     display: flex;
     flex-direction: row;
     gap:60px;
     align-items: flex-end;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 50px;
 }
 .content10-1{
     display: flex;
@@ -1358,7 +1189,7 @@ body {
     align-items: center;
     gap:5px;
 }
-.text10-3{
+.text10-bot{
     font-family: 'Josefin Sans';
     font-size: 14px;
     line-height: 1.2;
@@ -1382,7 +1213,7 @@ body {
     height: 131px;
     background-color: #b50051;
 }
-.text10-4{
+.text10-diff{
     opacity: 0.8;
     font-family: 'Josefin Sans';
     font-size: 18px;
@@ -1393,49 +1224,7 @@ body {
     writing-mode: tb-rl;
     transform: rotate(-180deg);
 }
-.text10-5{
-    opacity: 0.8;
-    font-family: 'Josefin Sans';
-    font-size: 18px;
-    line-height: 0.7;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-}
-.text10-6{
-    opacity: 0.8;
-    font-family: 'Josefin Sans';
-    font-size: 18px;
-    line-height: 0.7;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-}
-.text10-7{
-    font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-}
-.text10-8{
-    font-family: 'Open Sans';
-    font-size: 14px;
-    line-height: 1.2;
-    font-weight: 300;
-    letter-spacing: 0.025em;
-    color: #555555;
-    writing-mode: tb-rl;
-    transform: rotate(-180deg);
-}
-.text10-9{
+.text10-time{
     font-family: 'Open Sans';
     font-size: 14px;
     line-height: 1.2;
@@ -1453,7 +1242,6 @@ body {
     margin-left: 50px;
 }
 /* ======================ARTYOM===============*/
-
 .block11 {
     width: 290px;
     height: 160px;
