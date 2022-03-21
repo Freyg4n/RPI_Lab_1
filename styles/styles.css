@@ -27,7 +27,7 @@ body {
     color: #000000;
     font-family: "Josefin Sans", serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -703,6 +703,10 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: left;
+}
+.google5:hover, .facebook5:hover, .twitter5:hover, .pinterest5:hover{
+    color: #000000;
+    opacity: 1;
 }
 /* ====================IVAN PART============== */
 .blocks6-12{
@@ -1696,6 +1700,9 @@ button:hover {
     text-align: left;
     letter-spacing: 0.55px;
 }
+.facebook:hover, .facebook2:hover, .g:hover, .g2:hover{
+    color: #000000;
+}
 .text13-5 {
     width: 250px;
     height: 16px;
@@ -2105,7 +2112,7 @@ button:hover {
     font-family: 'Josefin Sans';
     font-size: 18px;
     line-height: 1.2;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: normal;
     color: #000000;
     flex-direction: row;
