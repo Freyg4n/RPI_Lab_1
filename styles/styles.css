@@ -1820,6 +1820,13 @@ button:hover {
     line-height: normal;
     text-decoration: underline;
     font-style: italic;
+    margin-top: 5px;
+}
+.text14-6 a:visited{
+    color:blue;
+}
+.text14-6 a:hover{
+    color:purple;
 }
 .text14-7 {
     width: 36px;
@@ -1833,6 +1840,7 @@ button:hover {
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: 0.3px;
+    margin-top: 15px;
 }
 
 /* ===================PASHASASHSHASHA============= */
