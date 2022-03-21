@@ -29,7 +29,7 @@ body {
     font-size: 16px;
     font-weight: 350;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-transform: uppercase;
 }
@@ -43,8 +43,7 @@ body {
     font-size: 10px;
     font-weight: 100;
     font-style: normal;
-    letter-spacing: 1.5px;
-    line-height: normal;
+        line-height: normal;
     text-transform: uppercase;
     text-align: center;
     opacity: 75%;
@@ -55,7 +54,7 @@ body {
     font-family: "Josefin Sans", serif;
     font-size: 18px;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     width: 162px;
@@ -89,7 +88,7 @@ body {
     font-family: "Playfair Display", serif;
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     font-style: normal;
@@ -106,8 +105,7 @@ body {
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.4px;
-    margin-top: 30px;
+        margin-top: 30px;
     margin-left: 90px;
 }
 .btn1-1 {
@@ -119,7 +117,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
@@ -178,7 +176,7 @@ body {
     justify-content: space-evenly;
 }
 .content2-1, .content2-2, .content2-3{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -196,7 +194,7 @@ body {
     font-size: 18px;
     font-weight: 350;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 10px;
@@ -206,7 +204,7 @@ body {
     font-size: 12px;
     line-height: 1.2;
     font-weight: 350;
-    letter-spacing: 0.025em;
+    ;
     color: #555555;
     margin-top: 10px;
 }
@@ -220,7 +218,7 @@ body {
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 8px;
@@ -276,7 +274,7 @@ body {
     font-size: 26px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     margin-right: 70px;
     margin-top: 20px;
@@ -290,7 +288,7 @@ body {
     font-size: 37px;
     font-weight: bold;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 30px;
@@ -341,7 +339,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     margin-top: 7px;
 }
@@ -353,7 +351,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 10px;
@@ -366,7 +364,7 @@ body {
     font-size: 18px;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 10px;
@@ -378,7 +376,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
@@ -405,7 +403,7 @@ body {
     font-size: 16px;
     font-weight: 350;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
 }
@@ -419,19 +417,17 @@ body {
     font-family: "Playfair Display", serif;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 0.4px;
     line-height: normal;
     margin-top: 15px;
 }
 .text3-6, .text3-7, .text3-8, .text3-9{
-    font-family: Sylfaen, serif;
-    font-weight: 400;
+    line-height: 1.35;
+    font-family: "Josefin Sans", serif;
+    font-weight: 350;
     font-style: normal;
-    letter-spacing: 0.4px;
-    line-height: normal;
 }
 .text3-6{
-    margin-top: 15px;
+    margin-top: 20px;
     width: 500px;
     font-size: 15px;
 }
@@ -503,7 +499,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     transform: skew(-5deg);
@@ -518,7 +514,7 @@ body {
     font-size: 34px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
 }
@@ -538,7 +534,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
@@ -561,7 +557,7 @@ body {
     font-size: 12px;
     font-weight: 500;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
@@ -603,7 +599,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     transform: skew(-5deg);
@@ -634,7 +630,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 40px;
@@ -647,7 +643,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     margin-top: 5px;
@@ -660,7 +656,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     transform: skew(-5deg);
@@ -673,7 +669,7 @@ body {
     line-height: 1.1;
     font-weight: 400;
     font-style: italic;
-    letter-spacing: 0.025em;
+    ;
     color: #000000;
 
     margin-top: 30px;
@@ -700,7 +696,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
 }
@@ -1237,7 +1233,7 @@ body {
     font-size: 12.5px;
     font-weight: 350;
     font-style: normal;
-    /*letter-spacing: normal;*/
+    /**/
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
@@ -1268,12 +1264,11 @@ body {
     font-size: 20px;
     font-weight: 500;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.5px;
-    line-height: normal;
+        line-height: normal;
     transform: skew(-7deg)
 }
 .first {
@@ -1341,7 +1336,7 @@ body {
     font-size: 12.5px;
     font-weight: 350;
     font-style: normal;
-    /*letter-spacing: normal;*/
+    /**/
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
@@ -1355,7 +1350,7 @@ body {
     font-size: 12.5px;
     font-weight: 350;
     font-style: normal;
-    /*letter-spacing: normal;*/
+    /**/
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
@@ -1370,7 +1365,7 @@ body {
     font-size: 12.5px;
     font-weight: 350;
     font-style: normal;
-    /*letter-spacing: normal;*/
+    /**/
     line-height: 3;
     text-align: left;
     text-transform: uppercase;
@@ -1394,11 +1389,11 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.35px;
+
     line-height: normal;
 }
 .text12-2 {
@@ -1410,7 +1405,7 @@ body {
     font-weight: 400;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.35px;
+
     line-height: normal;
     margin-left: 65px;
 }
@@ -1423,7 +1418,7 @@ body {
     font-weight: 350;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.45px;
+
     line-height: normal;
     margin-left: 65px;
 }
@@ -1435,10 +1430,10 @@ body {
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.35px;
+
     margin-left: 35px;
     transform: skew(-7deg);
     word-spacing: 10px;
@@ -1453,7 +1448,7 @@ body {
     font-size: 14px;
     line-height: 40px;
     font-weight: 600;
-    /*letter-spacing: 0.025em;*/
+    /*;*/
     width: 225px;
     height: 170px;
     grid-row-gap: 9px;
@@ -1487,14 +1482,13 @@ body {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.1px;
-    line-height: normal;
+        line-height: normal;
     margin-left: 30px;
 }
 .login {
@@ -1509,11 +1503,10 @@ body {
     font-family: "Josefin Sans";
     font-size: 20px;
     font-weight: 400;
-    letter-spacing: normal;
+
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.4px;
-    line-height: normal;
+        line-height: normal;
 }
 .login::placeholder, .usname::placeholder, .password2::placeholder, .rppassword::placeholder, .password::placeholder {
     width: 150px;
@@ -1523,11 +1516,10 @@ body {
     font-family: "Josefin Sans";
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: normal;
+
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.4px;
-    line-height: normal;
+        line-height: normal;
     transform: skew(-7deg);
     position: absolute;
 }
@@ -1562,11 +1554,10 @@ body {
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;
-    transform: skew(-7deg);
+        transform: skew(-7deg);
     margin-left: 5px;
     margin-top: 5px;
 }
@@ -1582,12 +1573,11 @@ body {
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
-}
+    }
 .btsignup {
     width: 105px;
     height: 28px;
@@ -1601,12 +1591,11 @@ body {
     font-size: 12px;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
-}
+    }
 button:hover {
     background-color: #c2c2c2;
     cursor: pointer;
@@ -1621,11 +1610,10 @@ button:hover {
     font-size: 12px;
     font-weight: 600;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;
-    transform: skew(-7deg);
+        transform: skew(-7deg);
 }
 .a1 {
     margin-left: 30px;
@@ -1643,11 +1631,10 @@ button:hover {
     font-size: 22px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;
-}
+    }
 .log {
     margin-top: 15px;
 }
@@ -1660,11 +1647,10 @@ button:hover {
     font-size: 22px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.3px;
-}
+    }
 .g {
     width: 29px;
     height: 19px;
@@ -1673,9 +1659,9 @@ button:hover {
     font-size: 24px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     text-align: left;
-    letter-spacing: 0.55px;
+
 }
 .social {
     display: flex;
@@ -1696,9 +1682,9 @@ button:hover {
     font-size: 24px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     text-align: left;
-    letter-spacing: 0.55px;
+
 }
 .facebook:hover, .facebook2:hover, .g:hover, .g2:hover{
     color: #000000;
@@ -1712,11 +1698,10 @@ button:hover {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
-    letter-spacing: 0.4px;
-    margin-left: 60px;
+        margin-left: 60px;
     transform: skew(-7deg);
 }
 .block14 {
@@ -1734,14 +1719,13 @@ button:hover {
     color: #000000;
     font-family: "Josefin Sans";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.1px;
-    line-height: normal;
+        line-height: normal;
     margin-left: 30px;
 }
 
@@ -1797,8 +1781,7 @@ button:hover {
     line-height: normal;
     text-align: left;
     font-style: normal;
-    letter-spacing: 0.2px;
-    transform: skew(-7deg);
+        transform: skew(-7deg);
 }
 .l {
     margin-bottom: 25px;
@@ -1811,16 +1794,16 @@ button:hover {
 .text14-6 {
     width: 200px;
     height: 14px;
-    color: #002dd6;
     font-family: "Josefin Sans";
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    letter-spacing: 0.35px;
     line-height: normal;
     text-decoration: underline;
     font-style: italic;
     margin-top: 5px;
+    color: #9aacef;
+    opacity: 0.54;
 }
 .text14-6 a:visited{
     color:blue;
@@ -1839,8 +1822,7 @@ button:hover {
     text-align: left;
     text-transform: uppercase;
     font-style: normal;
-    letter-spacing: 0.3px;
-    margin-top: 15px;
+        margin-top: 15px;
 }
 
 /* ===================PASHASASHSHASHA============= */
@@ -2067,7 +2049,7 @@ button:hover {
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
-    letter-spacing: normal;
+
     color: #555555;
 }
 .bottom-content16{
@@ -2121,7 +2103,7 @@ button:hover {
     font-size: 18px;
     line-height: 1.2;
     font-weight: 350;
-    letter-spacing: normal;
+
     color: #000000;
     flex-direction: row;
     flex-wrap: wrap;
@@ -2163,7 +2145,7 @@ button:hover {
     font-size: 12px;
     line-height: 1.2;
     font-weight: 300;
-    letter-spacing: normal;
+
     color: #fefefe;
 }
 .nav_links_footer{
@@ -2182,7 +2164,7 @@ button:hover {
     font-family: "Josefin Sans", serif;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: normal;
+
     line-height: normal;
     text-transform: uppercase;
 }
